@@ -1,0 +1,15 @@
+{
+  "baseline_accuracy": 0.4,
+  "baseline_ci_lower": 0.3093997461136028,
+  "baseline_ci_upper": 0.4979992153815976,
+  "with_memory_accuracy": 0.48,
+  "with_memory_ci_lower": 0.38464384320080547,
+  "with_memory_ci_upper": 0.5768359490982345,
+  "absolute_improvement": 0.07999999999999996,
+  "relative_improvement": 0.1999999999999999,
+  "confidence_intervals_overlap": true,
+  "statistically_significant": false,
+  "memory_bank_size": 223,
+  "problems_tested": 100,
+  "random_seed": 42
+}

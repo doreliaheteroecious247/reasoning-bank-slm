@@ -1,0 +1,2009 @@
+[
+  {
+    "title": "Identify Exponents of x**  \n**",
+    "description": "** The degree of a polynomial is determined by the highest exponent of $ x $ in any term.  \n**",
+    "content": "** To solve the problem, systematically list all terms and their exponents of $ x $. For example, in the given polynomial, the exponents are 0, 3, 0, 4, 4, and 0. The highest exponent is 4, so the degree is 4. This strategy works by focusing on the individual terms and their contributions to the polynomial's structure.",
+    "source_problem_id": "math_0",
+    "success": true,
+    "created_at": "2025-10-13T16:38:27.097189",
+    "embedding": null
+  },
+  {
+    "title": "Combine Like Terms Without Affecting Exponents**  \n**",
+    "description": "** Combining like terms (e.g., $ 2\\pi x^4 + \\sqrt{10}x^4 $) does not change the exponent of $ x $, so the degree remains the same.  \n**",
+    "content": "** Even after simplifying the polynomial by adding or subtracting coefficients, the exponents of $ x $ remain unchanged. This strategy is generalizable because it ensures that the highest exponent (and thus the degree) is not altered by operations that only affect coefficients.",
+    "source_problem_id": "math_0",
+    "success": true,
+    "created_at": "2025-10-13T16:38:27.097213",
+    "embedding": null
+  },
+  {
+    "title": "Check for the Highest Exponent in the Polynomial**  \n**",
+    "description": "** The degree is the maximum exponent of $ x $ present in the polynomial, regardless of other terms.  \n**",
+    "content": "** This strategy emphasizes that the degree is not influenced by constants (e.g., 4, 100, 9) or coefficients (e.g., $ 2\\pi $, $ \\sqrt{10} $). It requires identifying the highest exponent in the entire expression, which may involve multiple terms with the same exponent. This approach is applicable to any polynomial with multiple terms.",
+    "source_problem_id": "math_0",
+    "success": true,
+    "created_at": "2025-10-13T16:38:27.097224",
+    "embedding": null
+  },
+  {
+    "title": "Step-by-Step Simplification Strategy",
+    "description": "Break down complex expressions into smaller, manageable components to simplify calculations.",
+    "content": "When evaluating expressions like $3\\left(6 - \\frac{1}{2}\\right)$, decompose the problem into smaller steps: first simplify the inner parentheses, then apply multiplication, and finally apply the ceiling function. This strategy is generalizable to problems requiring multiple arithmetic operations, such as evaluating expressions with fractions, decimals, or exponents.",
+    "source_problem_id": "math_1",
+    "success": true,
+    "created_at": "2025-10-13T16:38:36.382890",
+    "embedding": null
+  },
+  {
+    "title": "Arithmetic Property Application Strategy",
+    "description": "Use algebraic properties (e.g., distributive property) to simplify calculations before applying functions.",
+    "content": "Recognize that $3\\left(6 - \\frac{1}{2}\\right)$ can be rewritten as $3 \\times 6 - 3 \\times \\frac{1}{2} = 18 - 1.5 = 16.5$. This approach is generalizable to problems where operations can be broken into parts, such as combining like terms or factoring expressions.",
+    "source_problem_id": "math_1",
+    "success": true,
+    "created_at": "2025-10-13T16:38:36.382910",
+    "embedding": null
+  },
+  {
+    "title": "Ceiling Function Behavior Understanding Strategy",
+    "description": "Understand the definition of the ceiling function to apply it correctly to non-integer results.",
+    "content": "The ceiling function rounds up to the nearest integer. For $16.5$, the ceiling is 17 because it is the smallest integer greater than or equal to 16.5. This strategy is generalizable to problems requiring rounding, such as evaluating floor, ceiling, or truncation functions in mathematical or programming contexts.",
+    "source_problem_id": "math_1",
+    "success": true,
+    "created_at": "2025-10-13T16:38:36.382919",
+    "embedding": null
+  },
+  {
+    "title": "Variable Setup and Equation Construction**  \n**",
+    "description": "** The key strategy is translating the problem into an algebraic equation by defining variables (e.g., $ x $ for non-working days) and expressing earnings in terms of those variables.  \n**",
+    "content": "** Identify the relationship between working days, non-working days, and total earnings. For example, Sam earns $60 per working day and loses $30 per non-working day. Set up the equation $ 60(20 - x) - 30x = 660 $, where $ x $ represents non-working days. This approach ensures the problem is modeled mathematically, allowing systematic solving.",
+    "source_problem_id": "math_2",
+    "success": true,
+    "created_at": "2025-10-13T16:38:44.837157",
+    "embedding": null
+  },
+  {
+    "title": "Algebraic Simplification and Solving**  \n**",
+    "description": "** After constructing the equation, simplify it by combining like terms and isolating the variable. This involves expanding and rearranging terms to solve for $ x $.  \n**",
+    "content": "** Expand $ 60(20 - x) - 30x = 660 $ to $ 1200 - 90x = 660 $, then subtract 1200 to get $ -90x = -540 $, and divide by -90 to find $ x = 6 $. This step is generalizable to problems requiring linear equation solving, where simplification and inverse operations are applied.",
+    "source_problem_id": "math_2",
+    "success": true,
+    "created_at": "2025-10-13T16:38:44.837172",
+    "embedding": null
+  },
+  {
+    "title": "Verification and Validation**  \n**",
+    "description": "** Check the solution by substituting the value back into the original equation to ensure it satisfies the problem\u2019s conditions.  \n**",
+    "content": "** Substitute $ x = 6 $ into the equation $ 60(20 - 6) - 30(6) = 60(14) - 180 = 840 - 180 = 660 $, confirming the solution is correct. This step ensures the strategy\u2019s validity and generalizability to similar problems requiring validation of results.",
+    "source_problem_id": "math_2",
+    "success": true,
+    "created_at": "2025-10-13T16:38:44.837180",
+    "embedding": null
+  },
+  {
+    "title": "Midpoint Calculation Strategy**  \n**",
+    "description": "** Find the center of the circle by averaging the x-coordinates and y-coordinates of the endpoints of the diameter.  \n**",
+    "content": "** The center of the circle is the midpoint of the diameter endpoints. To calculate it, average the x-values and y-values of the two endpoints. This method works because the midpoint lies equidistant from both endpoints, ensuring the center is correctly located.",
+    "source_problem_id": "math_4",
+    "success": true,
+    "created_at": "2025-10-13T16:39:11.238314",
+    "embedding": null
+  },
+  {
+    "title": "Average of Coordinates Strategy**  \n**",
+    "description": "** Use the average of each coordinate (x and y) to determine the center\u2019s position.  \n**",
+    "content": "** For each coordinate (x and y), compute the average of the corresponding values from the two endpoints. This is a direct application of the midpoint formula, ensuring the center\u2019s x and y coordinates are accurate. This strategy is transferable to any problem involving finding the center of a circle from diameter endpoints.",
+    "source_problem_id": "math_4",
+    "success": true,
+    "created_at": "2025-10-13T16:39:11.238331",
+    "embedding": null
+  },
+  {
+    "title": "Midpoint Formula Application Strategy**  \n**",
+    "description": "** Apply the midpoint formula to find the center of the circle.  \n**",
+    "content": "** The midpoint formula, $(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2})$, is essential for determining the center when given diameter endpoints. This strategy is generalizable to any problem where the center of a circle is derived from the midpoint of its diameter, ensuring consistency and accuracy in calculations.",
+    "source_problem_id": "math_4",
+    "success": true,
+    "created_at": "2025-10-13T16:39:11.238336",
+    "embedding": null
+  },
+  {
+    "title": "Rate Calculation and Scaling Strategy**  \n**",
+    "description": "** Calculate the rate per faucet by dividing the total rate by the number of faucets, then scale the rate to the new number of faucets.  \n**",
+    "content": "**  \n1. **Determine the rate per faucet**: For three faucets filling 100 gallons in 6 minutes, the combined rate is $ \\frac{100}{6} = \\frac{50}{3} $ gallons per minute. Dividing by 3 gives each faucet\u2019s rate: $ \\frac{50}{9} $ gallons per minute.  \n2. **Scale the rate for six faucets**: Multiply the rate of one faucet by 6 to get the combined rate: $ 6 \\times \\frac{50}{9} = \\frac{100}{3} $ gallons per minute.  \n3. **Adjust time for the new amount**: Use the formula $ \\text{Time} = \\frac{\\text{Amount}}{\\text{Rate}} $ to find the time for 25 gallons: $ \\frac{25}{\\frac{100}{3}} = 0.75 $ minutes, converted to seconds by multiplying by 60.",
+    "source_problem_id": "math_6",
+    "success": true,
+    "created_at": "2025-10-13T16:39:44.627151",
+    "embedding": null
+  },
+  {
+    "title": "Proportional Reasoning Strategy**  \n**",
+    "description": "** Recognize that time is inversely proportional to the number of faucets and directly proportional to the amount of water. Adjust calculations based on these relationships.  \n**",
+    "content": "**  \n1. **Inverse proportionality to faucets**: More faucets mean less time, so six faucets reduce the time compared to three.  \n2. **Direct proportionality to water amount**: Less water (25 gallons) requires less time than 100 gallons.  \n3. **Combine scaling and proportionality**: Use the combined rate from step 1 and apply the proportional relationship to compute the final time.",
+    "source_problem_id": "math_6",
+    "success": true,
+    "created_at": "2025-10-13T16:39:44.627167",
+    "embedding": null
+  },
+  {
+    "title": "Unit Conversion and Proportionality Strategy**  \n**",
+    "description": "** Convert final time from minutes to seconds while maintaining proportional relationships between rate, time, and amount.  \n**",
+    "content": "**  \n1. **Convert time units**: Convert 0.75 minutes to seconds by multiplying by 60: $ 0.75 \\times 60 = 45 $ seconds.  \n2. **Ensure consistency in units**: Maintain the rate in gallons per minute and apply the formula $ \\text{Time} = \\frac{\\text{Amount}}{\\text{Rate}} $ throughout calculations.  \n3. **Verify final result**: Cross-check by ensuring the scaled rate and adjusted amount align with the problem\u2019s constraints.",
+    "source_problem_id": "math_6",
+    "success": true,
+    "created_at": "2025-10-13T16:39:44.627174",
+    "embedding": null
+  },
+  {
+    "title": "Slope Calculation Strategy**  \n**",
+    "description": "** Calculating the slope between two points is essential for determining the equation of a line.  \n**",
+    "content": "** To find the slope $ m $ between two points $ (x_1, y_1) $ and $ (x_2, y_2) $, use the formula $ m = \\frac{y_2 - y_1}{x_2 - x_1} $. This step is generalizable to any line defined by two points, as it provides the rate of change between the points.",
+    "source_problem_id": "math_7",
+    "success": true,
+    "created_at": "2025-10-13T16:39:53.138772",
+    "embedding": null
+  },
+  {
+    "title": "Point-Slope Form Application**  \n**",
+    "description": "** Using the point-slope form $ y - y_1 = m(x - x_1) $ allows deriving the equation of a line once the slope and a point are known.  \n**",
+    "content": "** This strategy is applicable to any line with a known slope and a point. By substituting the slope and a point into the formula, the equation of the line can be expressed in slope-intercept form $ y = mx + b $, where $ b $ is the y-intercept. This method is transferable to problems requiring line equations or intercepts.",
+    "source_problem_id": "math_7",
+    "success": true,
+    "created_at": "2025-10-13T16:39:53.138794",
+    "embedding": null
+  },
+  {
+    "title": "Y-Intercept Determination**  \n**",
+    "description": "** Solving for the y-intercept involves substituting $ x = 0 $ into the derived line equation.  \n**",
+    "content": "** Once the line\u2019s equation is in slope-intercept form $ y = mx + b $, the y-intercept $ b $ is directly obtained by setting $ x = 0 $. This step is generalizable to any line equation, as it isolates the constant term in the equation. The process relies on understanding how the line behaves at $ x = 0 $, which is critical for finding intercepts.",
+    "source_problem_id": "math_7",
+    "success": true,
+    "created_at": "2025-10-13T16:39:53.138806",
+    "embedding": null
+  },
+  {
+    "title": "Exponent Pairing Strategy",
+    "description": "Identify pairs of terms from each polynomial whose exponents add up to the target exponent (e.g., 2 in this case).",
+    "content": "When expanding the product of two polynomials, the coefficient of a specific term (e.g., $x^2$) is determined by multiplying the coefficients of terms from each polynomial whose exponents add up to the target exponent. For example, in $(ax^3 + 3x^2 - 2x)(bx^2 - 7x - 4)$, the $x^2$ term arises from pairs like $3x^2 \\cdot -4$ (exponents 2 + 0) and $-2x \\cdot -7x$ (exponents 1 + 1). This strategy ensures only valid combinations are considered.",
+    "source_problem_id": "math_8",
+    "success": true,
+    "created_at": "2025-10-13T16:40:04.267473",
+    "embedding": null
+  },
+  {
+    "title": "Coefficient Multiplication and Summation",
+    "description": "Multiply the coefficients of identified term pairs and sum the results to find the target term's coefficient.",
+    "content": "Once valid exponent pairs are identified, multiply their coefficients and add the results. For instance, $3 \\cdot (-4) = -12$ and $(-2) \\cdot (-7) = 14$, leading to $-12 + 14 = 2$. This method is transferable to similar problems where multiple term pairs contribute to the target exponent.",
+    "source_problem_id": "math_8",
+    "success": true,
+    "created_at": "2025-10-13T16:40:04.267493",
+    "embedding": null
+  },
+  {
+    "title": "Exclusion of Invalid Term Pairs",
+    "description": "Exclude term pairs that do not contribute to the target exponent (e.g., exponents that sum to more than the target).",
+    "content": "Ensure that only pairs of exponents summing to the target exponent are considered. For example, $ax^3$ (exponent 3) cannot pair with any term in the second polynomial to produce $x^2$, as $3 + x$ would exceed the target. This exclusion prevents incorrect contributions to the target term.",
+    "source_problem_id": "math_8",
+    "success": true,
+    "created_at": "2025-10-13T16:40:04.267500",
+    "embedding": null
+  },
+  {
+    "title": "Incorrect assumption about the domain",
+    "description": "The solution assumes that the square roots are defined for all real numbers, but the original equation involves square roots of linear expressions. It is crucial to ensure that the expressions inside the square roots are non-negative, which imposes constraints on the domain of $ x $.",
+    "content": "When solving equations with square roots, it is essential to check the domain of the original equation. In this case, the expressions $ 3x + 5 $ and $ 6x + 5 $ must be non-negative. This means $ x \\geq -\\frac{5}{3} $. The solution $ x = \\frac{20}{3} $ satisfies this condition, so no domain issue arises.",
+    "source_problem_id": "math_9",
+    "success": false,
+    "created_at": "2025-10-13T16:40:19.114971",
+    "embedding": null
+  },
+  {
+    "title": "Misapplication of algebraic manipulation",
+    "description": "The algebraic steps are correct, but the cross-multiplication and simplification are straightforward. The key is to ensure that the operations are reversible and that the resulting equation is equivalent to the original.",
+    "content": "When squaring both sides of an equation, it is important to remember that squaring can introduce extraneous solutions. However, in this case, the solution $ x = \\frac{20}{3} $ was verified to satisfy the original equation, so no extraneous solutions were introduced.",
+    "source_problem_id": "math_9",
+    "success": false,
+    "created_at": "2025-10-13T16:40:19.114985",
+    "embedding": null
+  },
+  {
+    "title": "Distance Formula Method",
+    "description": "Calculate the distance between two adjacent vertices using the distance formula, then square the result to find the area.",
+    "content": "The distance between two points (x1, y1) and (x2, y2) is sqrt[(x2 - x1)^2 + (y2 - y1)^2]. For adjacent vertices, this distance is the side length of the square, so the area is the square of this distance. This method is generalizable for any square where adjacent vertices are given, as the side length is directly derived from the distance formula.",
+    "source_problem_id": "math_10",
+    "success": true,
+    "created_at": "2025-10-13T16:40:31.763913",
+    "embedding": null
+  },
+  {
+    "title": "Vector Magnitude Method",
+    "description": "Find the magnitude of the vector between the two points, which is the side length, then square it to get the area.",
+    "content": "The vector between two points (x1, y1) and (x2, y2) is (x2 - x1, y2 - y1). The magnitude of this vector is sqrt[(x2 - x1)^2 + (y2 - y1)^2], which is the side length of the square. Squaring this magnitude gives the area. This method is applicable when vectors are involved, providing an alternative computational approach to the same result.",
+    "source_problem_id": "math_10",
+    "success": true,
+    "created_at": "2025-10-13T16:40:31.763928",
+    "embedding": null
+  },
+  {
+    "title": "Conceptual Understanding",
+    "description": "The area of a square is the square of its side length. Since the given points are adjacent vertices, the distance between them is the side length, so the area is the square of that distance.",
+    "content": "This strategy relies on the fundamental property of squares that the area is the square of the side length. It applies to any square where adjacent vertices are given, regardless of the method used to calculate the side length. This conceptual understanding ensures that the solution is valid for any geometric configuration where adjacent vertices are provided.",
+    "source_problem_id": "math_10",
+    "success": true,
+    "created_at": "2025-10-13T16:40:31.763934",
+    "embedding": null
+  },
+  {
+    "title": "Factor and Analyze Roots**  \n**",
+    "description": "** Factoring the quadratic equation to find roots and determining the interval where the inequality holds.  \n**",
+    "content": "** To solve $ n^2 - 11n + 24 \\leq 0 $, factor the quadratic into $ (n - 3)(n - 8) \\leq 0 $. The roots are $ n = 3 $ and $ n = 8 $. Since the parabola opens upwards (positive coefficient), the inequality holds between the roots. This interval is $ 3 \\leq n \\leq 8 $. The greatest integer in this range is 8.  \n\n**WHY IT WORKS:** This strategy generalizes to any quadratic inequality by first finding roots and analyzing the parabola's direction. It ensures the solution is precise by leveraging the sign chart method, which is applicable to similar problems like $ ax^2 + bx + c \\leq 0 $.",
+    "source_problem_id": "math_11",
+    "success": true,
+    "created_at": "2025-10-13T16:40:41.137355",
+    "embedding": null
+  },
+  {
+    "title": "Determine Parabola Direction**  \n**",
+    "description": "** Use the coefficient of $ n^2 $ to determine if the parabola opens upwards or downwards, which dictates the sign of the quadratic in intervals.  \n**",
+    "content": "** If the coefficient of $ n^2 $ is positive, the parabola opens upwards, and the inequality $ \\leq 0 $ holds between the roots. If negative, it holds outside the roots. This step is critical for narrowing the solution space and avoiding incorrect interval ranges.  \n\n**WHY IT WORKS:** This strategy is transferable to any quadratic inequality. For example, if the inequality were $ -n^2 + 11n - 24 \\leq 0 $, the direction would be downward, and the solution would be $ n \\leq 3 $ or $ n \\geq 8 $, which would require different analysis.",
+    "source_problem_id": "math_11",
+    "success": true,
+    "created_at": "2025-10-13T16:40:41.137373",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Interval for Maximum Integer**  \n**",
+    "description": "** Identify the interval where the inequality holds and select the greatest integer within that interval.  \n**",
+    "content": "** After determining the interval $ [3, 8] $, the greatest integer is 8. This strategy applies to any interval [a, b] where a and b are real numbers. If the interval includes non-integers, the maximum integer is the floor of the upper bound.  \n\n**WHY IT WORKS:** This strategy is generalizable to problems requiring integer solutions. For instance, if the interval were $ [4.2, 6.7] $, the maximum integer would be 6. It ensures the solution is both mathematically precise and applicable to real-world or integer-based constraints.",
+    "source_problem_id": "math_11",
+    "success": true,
+    "created_at": "2025-10-13T16:40:41.137379",
+    "embedding": null
+  },
+  {
+    "title": "Solve Absolute Value Equations by Splitting into Cases",
+    "description": "The absolute value equation |x + 5| = 20 is split into two cases: x + 5 = 20 and x + 5 = -20. This method works because the absolute value represents two possible scenarios, and solving each gives the solutions.",
+    "content": "When solving |A| = B, where B is non-negative, split into A = B and A = -B. This approach is generalizable to any absolute value equation, allowing for the identification of two solutions.",
+    "source_problem_id": "math_12",
+    "success": true,
+    "created_at": "2025-10-13T16:40:52.825356",
+    "embedding": null
+  },
+  {
+    "title": "Calculate the Absolute Difference Between Solutions",
+    "description": "After finding the two solutions, compute the absolute difference between them to ensure the result is positive.",
+    "content": "The absolute difference is calculated as |x1 - x2|, which is a standard method for finding the distance between two numbers. This step is crucial for ensuring the answer is positive, as required by the problem.",
+    "source_problem_id": "math_12",
+    "success": true,
+    "created_at": "2025-10-13T16:40:52.825370",
+    "embedding": null
+  },
+  {
+    "title": "**Standard Quadratic Form and Vieta's Formula**",
+    "description": "**Use Vieta's formula to determine the sum of roots directly from the quadratic equation**.",
+    "content": "When solving a quadratic equation $ ax^2 + bx + c = 0 $, the sum of the roots is $ -\\frac{b}{a} $. In the given problem, after expanding $ (x+2)(x-3) = 14 $, the equation becomes $ x^2 - x - 20 = 0 $, where $ a = 1 $ and $ b = -1 $. Applying Vieta's formula, the sum of the roots is $ -\\frac{-1}{1} = 1 $. This strategy is generalizable for any quadratic equation where the sum of roots is required without explicitly solving for each root.",
+    "source_problem_id": "math_13",
+    "success": true,
+    "created_at": "2025-10-13T16:41:03.673468",
+    "embedding": null
+  },
+  {
+    "title": "**Factoring the Quadratic Equation**",
+    "description": "**Factor the quadratic equation to find the roots and sum them**.",
+    "content": "Factoring the quadratic $ x^2 - x - 20 = 0 $ as $ (x + 4)(x - 5) = 0 $ yields roots $ x = -4 $ and $ x = 5 $. Adding these roots gives $ -4 + 5 = 1 $. This strategy is useful when the quadratic factors neatly, and it aligns with Vieta's formula, as the sum of the roots is the same regardless of the method used.",
+    "source_problem_id": "math_13",
+    "success": true,
+    "created_at": "2025-10-13T16:41:03.673483",
+    "embedding": null
+  },
+  {
+    "title": "**Quadratic Formula for Root Sum**",
+    "description": "**Use the quadratic formula to solve for roots and add them**.",
+    "content": "The quadratic formula $ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} $ can be applied to $ x^2 - x - 20 = 0 $, yielding roots $ x = \\frac{1 \\pm \\sqrt{1 + 80}}{2} = \\frac{1 \\pm 9}{2} $, which are $ x = 5 $ and $ x = -4 $. Adding these roots also results in $ 5 + (-4) = 1 $. This strategy is generalizable for any quadratic equation where the sum of roots is required, as it provides an alternative method to Vieta's formula.  \n\n**Why These Strategies Work**: These approaches are generalizable because they all rely on the fundamental property of quadratic equations that the sum of the roots is $ -\\frac{b}{a} $, regardless of the method used (factoring, Vieta's formula, or the quadratic formula). Each strategy leverages this property to avoid solving for individual roots, making them efficient and applicable to similar problems.",
+    "source_problem_id": "math_13",
+    "success": true,
+    "created_at": "2025-10-13T16:41:03.673489",
+    "embedding": null
+  },
+  {
+    "title": "** Use the Conjugate to Rationalize the Denominator  \n**",
+    "description": "** Multiply the numerator and denominator by the conjugate of the denominator to eliminate radicals in the denominator.  \n**",
+    "content": "** This strategy involves identifying the conjugate (the same expression with a sign change) and applying the difference of squares formula to simplify the denominator. For example, in $\\frac{1}{\\sqrt{2} - 1}$, multiplying by $\\sqrt{2} + 1$ uses $(a - b)(a + b) = a^2 - b^2$ to eliminate the radical. This method is generalizable to any denominator with a single square root or higher root, provided the conjugate is correctly identified.",
+    "source_problem_id": "math_14",
+    "success": true,
+    "created_at": "2025-10-13T16:41:13.526200",
+    "embedding": null
+  },
+  {
+    "title": "** Apply the Difference of Squares Formula  \n**",
+    "description": "** Simplify the denominator using the algebraic identity $(a - b)(a + b) = a^2 - b^2$ to eliminate radicals.  \n**",
+    "content": "** This strategy focuses on simplifying the product of the conjugate and the original denominator. For instance, $(\\sqrt{2} - 1)(\\sqrt{2} + 1) = (\\sqrt{2})^2 - 1^2 = 2 - 1 = 1$. This step is critical for reducing the denominator to a simple integer, making the expression easier to simplify further. This approach is applicable to any expression where the denominator is a product of a binomial and its conjugate.",
+    "source_problem_id": "math_14",
+    "success": true,
+    "created_at": "2025-10-13T16:41:13.526215",
+    "embedding": null
+  },
+  {
+    "title": "** Simplify the Resulting Expression  \n**",
+    "description": "** Combine and simplify the numerator and denominator after rationalizing to obtain the final simplified form.  \n**",
+    "content": "** After multiplying by the conjugate, the denominator becomes a simple integer (e.g., 1 in the example), and the numerator is simplified by distributing or combining like terms. This step ensures the final answer is in its simplest form, which is essential for standardization. This strategy is transferable to problems where the denominator simplifies to a constant after rationalization.",
+    "source_problem_id": "math_14",
+    "success": true,
+    "created_at": "2025-10-13T16:41:13.526222",
+    "embedding": null
+  },
+  {
+    "title": "**Solve for Common Difference**",
+    "description": "**Use the nth term formula to determine the common difference (d) when two terms are known.**",
+    "content": "In an arithmetic sequence, the difference between consecutive terms is constant. The formula $ a_n = a_1 + (n-1)d $ allows solving for $ d $ when two terms are given. For example, using $ a_1 = 5 $ and $ a_{13} = 29 $, substitute into the formula: $ 29 = 5 + 12d $, leading to $ d = 2 $. This strategy is generalizable for any arithmetic sequence where two terms are known.",
+    "source_problem_id": "math_15",
+    "success": true,
+    "created_at": "2025-10-13T16:41:21.848874",
+    "embedding": null
+  },
+  {
+    "title": "**Apply the nth Term Formula with Known d**",
+    "description": "**Use the formula $ a_n = a_1 + (n-1)d $ with the found common difference to compute the desired term.**",
+    "content": "Once $ d $ is determined, substitute it into the formula for the specific term (e.g., $ a_{50} $) and compute the result. This strategy is generalizable for any term in the sequence once $ d $ is known.",
+    "source_problem_id": "math_15",
+    "success": true,
+    "created_at": "2025-10-13T16:41:21.848889",
+    "embedding": null
+  },
+  {
+    "title": "**Ensure Correct Term Number Substitution**",
+    "description": "**Verify the correct term number in the formula to avoid calculation errors.**",
+    "content": "The formula requires the correct $ n $ (term number) to compute the desired term. For example, $ a_{50} $ uses $ n = 50 $, not $ n = 13 $. This strategy is generalizable for any term calculation in an arithmetic sequence.",
+    "source_problem_id": "math_15",
+    "success": true,
+    "created_at": "2025-10-13T16:41:21.848894",
+    "embedding": null
+  },
+  {
+    "title": "**Expand and Combine Like Terms Strategy**",
+    "description": "This strategy involves expanding each polynomial product first to simplify the expression, then combining like terms to reduce the complexity.",
+    "content": "When simplifying expressions with multiple binomials, expanding each product ensures all terms are accounted for, allowing direct combination of like terms. This method is particularly effective when the expression is complex and requires careful term-by-term subtraction or addition.",
+    "source_problem_id": "math_16",
+    "success": true,
+    "created_at": "2025-10-13T16:41:34.137786",
+    "embedding": null
+  },
+  {
+    "title": "**Distribute Properly to Avoid Errors**",
+    "description": "Distributing each term correctly is critical to avoid sign errors during expansion. This step ensures that all terms in the product are properly accounted for, which is essential for accurate subtraction and simplification.",
+    "content": "When expanding expressions like $(2x - 5)(x + 7)$, distributing each term (e.g., $2x \\cdot x$, $2x \\cdot 7$, $-5 \\cdot x$, $-5 \\cdot 7$) ensures no term is missed. Similarly, for $(x + 5)(2x - 1)$, distributing each term (e.g., $x \\cdot 2x$, $x \\cdot -1$, $5 \\cdot 2x$, $5 \\cdot -1$) maintains accuracy.",
+    "source_problem_id": "math_16",
+    "success": true,
+    "created_at": "2025-10-13T16:41:34.137801",
+    "embedding": null
+  },
+  {
+    "title": "**Subtract and Combine Like Terms After Expansion**",
+    "description": "After expanding both products, subtracting the second expanded expression from the first involves distributing the negative sign to all terms in the second polynomial and then combining like terms. This step is vital for simplifying the final result.",
+    "content": "When subtracting polynomials, the negative sign must be applied to each term in the second polynomial, leading to the cancellation of like terms (e.g., $2x^2 - 2x^2 = 0$, $9x - 9x = 0$) and the final simplification to a constant. This method is generalizable to any polynomial subtraction problem where terms can be canceled out.",
+    "source_problem_id": "math_16",
+    "success": true,
+    "created_at": "2025-10-13T16:41:34.137807",
+    "embedding": null
+  },
+  {
+    "title": "Vertex Formula Method**  \n**",
+    "description": "** Identifies the x-coordinate of the vertex of a quadratic function using the formula $ x = -\\frac{b}{2a} $.  \n**",
+    "content": "** The vertex formula is a standard method for finding the minimum or maximum of a quadratic function. For the function $ 2x^2 - 12x + 3 $, substituting $ a = 2 $ and $ b = -12 $ gives $ x = -\\frac{-12}{2 \\cdot 2} = 3 $. This method is efficient and directly applicable to any quadratic equation, as it avoids solving the quadratic formula or completing the square.",
+    "source_problem_id": "math_17",
+    "success": true,
+    "created_at": "2025-10-13T16:41:45.418656",
+    "embedding": null
+  },
+  {
+    "title": "Completing the Square Method**  \n**",
+    "description": "** Converts the quadratic equation into vertex form by completing the square, revealing the vertex's coordinates.  \n**",
+    "content": "** Completing the square involves rearranging the equation to form a perfect square trinomial. For example, starting with $ 2x^2 - 12x + 3 $, factor out the coefficient of $ x^2 $, complete the square, and solve for $ x $. This method is useful for understanding the structure of the quadratic and is another valid approach to find the vertex.",
+    "source_problem_id": "math_17",
+    "success": true,
+    "created_at": "2025-10-13T16:41:45.418670",
+    "embedding": null
+  },
+  {
+    "title": "Calculus Method**  \n**",
+    "description": "** Uses calculus to find the minimum by taking the derivative of the function and setting it to zero.  \n**",
+    "content": "** Taking the derivative of $ 2x^2 - 12x + 3 $ gives $ 4x - 12 $. Setting this equal to zero yields $ x = 3 $. This method is applicable in more complex scenarios where algebraic methods might be cumbersome, but it is also a valid approach for finding extrema.  \n\n**Why These Strategies Work:**  \nThese strategies are generalizable because they apply to any quadratic function. The vertex formula is the most direct and efficient method, while completing the square and calculus offer alternative approaches. Each method leverages the properties of quadratics (e.g., symmetry, parabola shape) to locate the minimum, making them applicable to similar problems involving optimization.",
+    "source_problem_id": "math_17",
+    "success": true,
+    "created_at": "2025-10-13T16:41:45.418675",
+    "embedding": null
+  },
+  {
+    "title": "Express Variable in Terms of Floor Function",
+    "description": "When solving equations involving the floor function, express the variable in terms of the floor function and substitute into the inequality constraints.",
+    "content": "For the equation $ x \\cdot \\lfloor x \\rfloor = 70 $, let $ n = \\lfloor x \\rfloor $, so $ x = \\frac{70}{n} $. Substitute this into the inequality $ n \\leq x < n + 1 $ to derive constraints on $ n $.",
+    "source_problem_id": "math_18",
+    "success": true,
+    "created_at": "2025-10-13T16:41:58.429677",
+    "embedding": null
+  },
+  {
+    "title": "Solve Inequalities to Find Integer Values",
+    "description": "Solve the resulting inequalities to determine possible integer values for $ n $ that satisfy both the original equation and the floor function constraints.",
+    "content": "By solving $ n \\leq \\frac{70}{n} $ and $ \\frac{70}{n} < n + 1 $, we find that $ n $ must be an integer between 8 and 8, leading to $ x = \\frac{70}{8} = 8.75 $.",
+    "source_problem_id": "math_18",
+    "success": true,
+    "created_at": "2025-10-13T16:41:58.429690",
+    "embedding": null
+  },
+  {
+    "title": "Verify and Confirm with Original Equation",
+    "description": "Verify the solution by substituting back into the original equation to ensure it satisfies the constraints.",
+    "content": "Check that $ x = 8.75 $ satisfies $ x \\cdot \\lfloor x \\rfloor = 70 $, confirming that $ \\lfloor 8.75 \\rfloor = 8 $ and the equation holds true.",
+    "source_problem_id": "math_18",
+    "success": true,
+    "created_at": "2025-10-13T16:41:58.429694",
+    "embedding": null
+  },
+  {
+    "title": "**Translate Word Problem to Equation**",
+    "description": "**Convert verbal relationships into algebraic expressions** to form a solvable equation.",
+    "content": "When solving problems involving integers and their relationships, the first step is to assign a variable to the unknown integer and translate the problem\u2019s conditions into a mathematical equation. For example, the problem states that the square of an integer is 182 greater than the integer itself, leading to the equation $ x^2 = x + 182 $, which simplifies to $ x^2 - x - 182 = 0 $. This strategy ensures the problem is framed in a form that can be solved using algebraic techniques.",
+    "source_problem_id": "math_20",
+    "success": true,
+    "created_at": "2025-10-13T16:42:27.795777",
+    "embedding": null
+  },
+  {
+    "title": "**Factor Quadratic Equations**",
+    "description": "**Factor the quadratic equation when possible** to find integer solutions.",
+    "content": "If a quadratic equation can be factored into two binomials, this method is efficient and often yields integer solutions. For instance, the equation $ x^2 - x - 182 = 0 $ factors into $ (x + 13)(x - 14) = 0 $, allowing the solutions $ x = -13 $ and $ x = 14 $ to be directly identified. This strategy works when the quadratic has integer roots, which is common in problems involving integers and their relationships.",
+    "source_problem_id": "math_20",
+    "success": true,
+    "created_at": "2025-10-13T16:42:27.795792",
+    "embedding": null
+  },
+  {
+    "title": "**Verify Solutions**",
+    "description": "**Check solutions in the original equation** to ensure they satisfy the problem\u2019s conditions.",
+    "content": "After solving the equation, it is critical to substitute the solutions back into the original problem to confirm they meet all constraints. For example, substituting $ x = -13 $ into $ x^2 - x - 182 = 0 $ yields $ 169 + 13 - 182 = 0 $, which is true. This step prevents extraneous solutions and ensures the correctness of the final answer.",
+    "source_problem_id": "math_20",
+    "success": true,
+    "created_at": "2025-10-13T16:42:27.795799",
+    "embedding": null
+  },
+  {
+    "title": "Vertex Formula for Maximum Height",
+    "description": "The maximum height of a quadratic function occurs at the vertex, which can be found using the formula $ t = -\\frac{b}{2a} $. This strategy is applicable to any quadratic function with a negative leading coefficient.",
+    "content": "For a quadratic function $ h(t) = at^2 + bt + c $, the x-coordinate of the vertex (time) is $ t = -\\frac{b}{2a} $. Substituting this value back into the function gives the maximum height. This method is efficient and generalizable for any quadratic with a negative leading coefficient.",
+    "source_problem_id": "math_21",
+    "success": true,
+    "created_at": "2025-10-13T16:42:41.099246",
+    "embedding": null
+  },
+  {
+    "title": "Completing the Square to Find Vertex",
+    "description": "Completing the square is another method to find the vertex of a quadratic function, which can be used to determine the maximum height.",
+    "content": "By rewriting the quadratic equation in vertex form $ h(t) = a(t - h)^2 + k $, the vertex $ (h, k) $ gives the maximum height. This method is useful when the vertex formula is not easily applied and provides an alternative pathway to the solution.",
+    "source_problem_id": "math_21",
+    "success": true,
+    "created_at": "2025-10-13T16:42:41.099262",
+    "embedding": null
+  },
+  {
+    "title": "**Convert Mixed Time Units to Hours**",
+    "description": "**Convert time intervals into a single unit (hours) to ensure consistency in calculations.**",
+    "content": "When dealing with time spans that include both hours and minutes (e.g., 3 hours and 40 minutes), convert the minutes to a fraction of an hour (e.g., 40 minutes = 2/3 hours) to perform arithmetic operations. This ensures the total time is in hours, which is necessary for calculating average speed in miles per hour.",
+    "source_problem_id": "math_22",
+    "success": true,
+    "created_at": "2025-10-13T16:42:51.707492",
+    "embedding": null
+  },
+  {
+    "title": "**Add Time Components Algebraically**",
+    "description": "**Combine hours and fractions of an hour by converting them to a common denominator.**",
+    "content": "When adding time intervals (e.g., 3 hours + 40 minutes), convert the minutes to hours (40/60 = 2/3) and add to the hours. This avoids confusion and ensures accurate total time in hours, which is critical for applying the average speed formula.",
+    "source_problem_id": "math_22",
+    "success": true,
+    "created_at": "2025-10-13T16:42:51.707505",
+    "embedding": null
+  },
+  {
+    "title": "**Apply the Average Speed Formula**",
+    "description": "**Use the formula: Average Speed = Total Distance / Total Time.**",
+    "content": "The key step is recognizing that average speed is calculated by dividing the total distance traveled by the total time taken. This formula is universally applicable when distance and time are in compatible units (miles and hours). For this problem, the conversion of time to hours and the division of distance by time yielded the correct result.",
+    "source_problem_id": "math_22",
+    "success": true,
+    "created_at": "2025-10-13T16:42:51.707511",
+    "embedding": null
+  },
+  {
+    "title": "Substitution Method for Finding the Y-Intercept",
+    "description": "Use the point-slope form of a line to substitute known values into the slope-intercept form (y = mx + b) to solve for the y-intercept (b).",
+    "content": "When given a slope (m) and a point (x, y) on the line, substitute the point into the equation y = mx + b to create an equation involving b. Solve for b algebraically. This method is effective for finding the intercept when the slope is known and a point is provided.",
+    "source_problem_id": "math_24",
+    "success": true,
+    "created_at": "2025-10-13T16:43:13.900288",
+    "embedding": null
+  },
+  {
+    "title": "Algebraic Solving for the Intercept",
+    "description": "Solve for the y-intercept (b) by rearranging the equation y = mx + b after substituting the given point. This involves isolating b through basic algebraic operations.",
+    "content": "Once the slope (m) is known, plug the point (x, y) into the equation to form an equation like y = mx + b. Rearranging this equation to solve for b requires subtracting mx from both sides, which is a standard algebraic technique applicable to similar problems.",
+    "source_problem_id": "math_24",
+    "success": true,
+    "created_at": "2025-10-13T16:43:13.900304",
+    "embedding": null
+  },
+  {
+    "title": "Summation of m and b",
+    "description": "After determining both the slope (m) and the y-intercept (b), compute their sum (m + b) by adding the two values.",
+    "content": "This step is straightforward once m and b are known. It involves simple arithmetic and is applicable in any scenario where the sum of the slope and intercept is required. This strategy is generalizable to problems involving linear equations with known slope and intercept values.",
+    "source_problem_id": "math_24",
+    "success": true,
+    "created_at": "2025-10-13T16:43:13.900309",
+    "embedding": null
+  },
+  {
+    "title": "Substitute x = 4 and Simplify Constants",
+    "description": "When evaluating functions at a specific x-value, the quadratic terms (like $x^2 - 2x$) cancel out, leaving only the constants. This simplifies the problem to solving for the constants.",
+    "content": "To solve the problem, substitute $x = 4$ into both functions $f(x)$ and $g(x)$. The quadratic terms $x^2 - 2x$ evaluate to the same value for both functions at $x = 4$, so they cancel out. This leaves only the constants $m$ and $4m$ in the expressions for $f(4)$ and $g(4)$. Then, set up the equation $2f(4) = g(4)$ using these simplified expressions and solve for $m$.",
+    "source_problem_id": "math_26",
+    "success": true,
+    "created_at": "2025-10-13T16:43:50.222712",
+    "embedding": null
+  },
+  {
+    "title": "Recognize the Difference in Constants",
+    "description": "The difference between the functions $f(x)$ and $g(x)$ lies in their constants. By recognizing that $g(x)$ has a constant term $4m$ instead of $m$, you can express the relationship between $f(4)$ and $g(4)$ as a linear equation in $m$.",
+    "content": "Since $g(4) = f(4) + 3m$, the equation $2f(4) = g(4)$ becomes $2f(4) = f(4) + 3m$. Subtracting $f(4)$ from both sides gives $f(4) = 3m$. Substituting the value of $f(4)$ (which is $8 + m$) into this equation allows solving for $m$ directly.",
+    "source_problem_id": "math_26",
+    "success": true,
+    "created_at": "2025-10-13T16:43:50.222733",
+    "embedding": null
+  },
+  {
+    "title": "Solve the Equation for m",
+    "description": "After simplifying the expressions for $f(4)$ and $g(4)$, set up the equation based on the given condition $2f(4) = g(4)$. Solve the resulting linear equation step-by-step to isolate $m$.",
+    "content": "Substitute the computed values of $f(4)$ and $g(4)$ into the equation $2f(4) = g(4)$. Simplify the equation by expanding and combining like terms. Solve for $m$ by isolating it on one side of the equation, leading to the final value of $m$. This strategy is generalizable to similar problems where a specific x-value is substituted into functions with similar quadratic components.",
+    "source_problem_id": "math_26",
+    "success": true,
+    "created_at": "2025-10-13T16:43:50.222738",
+    "embedding": null
+  },
+  {
+    "title": "Factor Pair Identification Strategy",
+    "description": "Identify all integer pairs (a, b) such that their product equals the constant term of the quadratic.",
+    "content": "To solve the problem, we first recognize that the quadratic $ x^2 + tx - 10 $ can be factored as $ (x + a)(x + b) $, which implies that the product of the roots $ ab = -10 $. Therefore, we need to find all integer pairs $ (a, b) $ such that $ ab = -10 $. This step is crucial because it restricts the possible values of $ a $ and $ b $, ensuring they are integers and their product is -10.",
+    "source_problem_id": "math_27",
+    "success": true,
+    "created_at": "2025-10-13T16:44:07.180309",
+    "embedding": null
+  },
+  {
+    "title": "Sum of Roots Calculation Strategy",
+    "description": "Compute the sum $ t = a + b $ for each valid pair of integers $ (a, b) $.",
+    "content": "Once we have all valid integer pairs $ (a, b) $ that satisfy $ ab = -10 $, we calculate $ t = a + b $ for each pair. This step involves summing the integers in each pair to determine the corresponding value of $ t $. It is important to note that different pairs can yield the same value of $ t $, so we must consider each unique $ t $ only once.",
+    "source_problem_id": "math_27",
+    "success": true,
+    "created_at": "2025-10-13T16:44:07.180324",
+    "embedding": null
+  },
+  {
+    "title": "Unique Product of T Values Strategy",
+    "description": "Multiply all unique values of $ t $ obtained from the valid pairs.",
+    "content": "After identifying all valid pairs $ (a, b) $ and computing the corresponding $ t = a + b $, we collect all unique values of $ t $. The final step is to compute the product of these unique $ t $ values. This ensures that we account for all possible values of $ t $ and avoid overcounting or undercounting any particular value. The product of these unique $ t $ values is the final answer.",
+    "source_problem_id": "math_27",
+    "success": true,
+    "created_at": "2025-10-13T16:44:07.180330",
+    "embedding": null
+  },
+  {
+    "title": "Identify Function Symmetry",
+    "description": "Recognize that the function $ u(x) = -x + 3\\sin\\left(\\frac{x\\pi}{3}\\right) $ is odd by verifying $ u(-x) = -u(x) $.",
+    "content": "The function is odd because $ u(-x) = -(-x) + 3\\sin\\left(-\\frac{x\\pi}{3}\\right) = x - 3\\sin\\left(\\frac{x\\pi}{3}\\right) $, which equals $ -u(x) = -(-x + 3\\sin\\left(\\frac{x\\pi}{3}\\right)) = x - 3\\sin\\left(\\frac{x\\pi}{3}\\right) $. This confirms the function is odd.",
+    "source_problem_id": "math_29",
+    "success": true,
+    "created_at": "2025-10-13T16:44:38.109693",
+    "embedding": null
+  },
+  {
+    "title": "Apply Odd Function Property",
+    "description": "Use the property $ u(-x) = -u(x) $ to pair terms and simplify the sum.",
+    "content": "For any $ x $, $ u(-x) + u(x) = 0 $. Applying this to the given values, $ u(-2.33) + u(2.33) = 0 $ and $ u(-0.81) + u(0.81) = 0 $, leading to the total sum being $ 0 + 0 = 0 $.",
+    "source_problem_id": "math_29",
+    "success": true,
+    "created_at": "2025-10-13T16:44:38.109707",
+    "embedding": null
+  },
+  {
+    "title": "Simplify the Sum Using Symmetry",
+    "description": "Group terms and apply the odd function property to simplify the expression.",
+    "content": "By grouping the terms as $ (u(-2.33) + u(2.33)) + (u(-0.81) + u(0.81)) $, each pair sums to zero due to the odd function property, resulting in the final answer $ 0 $.",
+    "source_problem_id": "math_29",
+    "success": true,
+    "created_at": "2025-10-13T16:44:38.109712",
+    "embedding": null
+  },
+  {
+    "title": "** Use Algebraic Identity to Simplify Expressions  \n**",
+    "description": "** The key strategy is applying the identity $(a + b)^2 = a^2 + 2ab + b^2$ to the given equation $m + \\frac{1}{m} = 8$. This allows transforming the sum into the sum of squares plus twice the product, which simplifies to $m^2 + 2 + \\frac{1}{m^2}$.  \n**",
+    "content": "** By squaring the given equation, we isolate $m^2 + \\frac{1}{m^2}$ and eliminate the cross term (the $2$), enabling direct computation of the required value. This identity is generalizable for problems involving sums of terms and their squares.",
+    "source_problem_id": "math_30",
+    "success": true,
+    "created_at": "2025-10-13T16:44:49.175879",
+    "embedding": null
+  },
+  {
+    "title": "** Substitute Known Values into the Expression  \n**",
+    "description": "** After calculating $m^2 + \\frac{1}{m^2} = 62$, the next step is to substitute this result into the original expression $m^2 + \\frac{1}{m^2} + 4$. This demonstrates how to handle the final arithmetic operation by directly applying the computed value.  \n**",
+    "content": "** This strategy highlights the importance of breaking down the problem into manageable steps. Once the necessary component (e.g., $m^2 + \\frac{1}{m^2}$) is found, substitution simplifies the solution. It is generalizable to similar problems where intermediate values are derived and then applied to the final expression.",
+    "source_problem_id": "math_30",
+    "success": true,
+    "created_at": "2025-10-13T16:44:49.175894",
+    "embedding": null
+  },
+  {
+    "title": "** Sequential Arithmetic and Simplification  \n**",
+    "description": "** The solution involves performing arithmetic operations step-by-step: squaring the given equation, simplifying the expanded form, isolating the desired term, and finally adding the constant $4$. This method emphasizes the importance of careful algebraic manipulation and order of operations.  \n**",
+    "content": "** This strategy is applicable to problems requiring multiple steps of simplification. By systematically applying identities and performing arithmetic, one can solve complex expressions. It is generalizable to problems where intermediate results are derived and then combined with other terms.",
+    "source_problem_id": "math_30",
+    "success": true,
+    "created_at": "2025-10-13T16:44:49.175899",
+    "embedding": null
+  },
+  {
+    "title": "**Geometric Interpretation of Absolute Value Equations**",
+    "description": "Solving |x - a| = |x - b| involves recognizing that the equation represents the set of points equidistant from a and b, which lies at their midpoint.",
+    "content": "When solving |x - 7| = |x + 1|, the equation implies that x is equidistant from 7 and -1. The midpoint between 7 and -1 is (7 + (-1))/2 = 3. This geometric approach directly identifies the solution x = 3 by visualizing the problem as a distance equality. This strategy is generalizable to any equation of the form |x - a| = |x - b|, where the solution is the midpoint between a and b.",
+    "source_problem_id": "math_32",
+    "success": true,
+    "created_at": "2025-10-13T16:45:13.822319",
+    "embedding": null
+  },
+  {
+    "title": "**Case Analysis for Absolute Value Equations**",
+    "description": "Breaking the equation into cases based on the sign of the expressions inside the absolute values allows systematic solving.",
+    "content": "When |x - 7| = |x + 1|, the cases are:  \n1. **Case 1**: x - 7 = x + 1 \u2192 Contradiction (no solution).  \n2. **Case 2**: x - 7 = -(x + 1) \u2192 x = 3.  \nThis method is generalizable to equations with multiple absolute value expressions, where splitting into cases based on the equality or negation of the expressions inside the absolute values ensures all possible solutions are considered.",
+    "source_problem_id": "math_32",
+    "success": true,
+    "created_at": "2025-10-13T16:45:13.822335",
+    "embedding": null
+  },
+  {
+    "title": "**Squaring Both Sides to Eliminate Absolute Values**",
+    "description": "Squaring both sides of an equation removes the absolute value, simplifying the equation to a polynomial that can be solved algebraically.",
+    "content": "By squaring |x - 7| = |x + 1|, we get (x - 7)\u00b2 = (x + 1)\u00b2. Expanding and simplifying leads to x = 3. This method is generalizable to equations where absolute values are present, as squaring preserves the equality (since both sides are non-negative) and allows solving for x without the absolute value symbols.",
+    "source_problem_id": "math_32",
+    "success": true,
+    "created_at": "2025-10-13T16:45:13.822342",
+    "embedding": null
+  },
+  {
+    "title": "** Case Analysis for Absolute Value Equations  \n**",
+    "description": "** When solving equations with absolute values, split the expression into cases based on the critical point where the inside of the absolute value changes sign.  \n**",
+    "content": "** The absolute value $ |y - 6| $ changes behavior at $ y = 6 $. By considering two cases\u2014$ y \\geq 6 $ and $ y < 6 $\u2014the equation is broken into manageable parts, allowing for separate solving and validation. This strategy is generalizable to equations with absolute values, where the critical point divides the real number line into regions requiring different handling.",
+    "source_problem_id": "math_33",
+    "success": true,
+    "created_at": "2025-10-13T16:45:25.478000",
+    "embedding": null
+  },
+  {
+    "title": "** Validating Solutions with Constraints  \n**",
+    "description": "** After solving for $ y $ in each case, verify that the solutions satisfy the original conditions imposed by the absolute value.  \n**",
+    "content": "** In Case 1, $ y = 5 $ failed the condition $ y \\geq 6 $, so it was discarded. In Case 2, $ y = 3 $ satisfied $ y < 6 $, so it was accepted. This step ensures that only valid solutions are retained, a critical process for maintaining accuracy in absolute value equations.",
+    "source_problem_id": "math_33",
+    "success": true,
+    "created_at": "2025-10-13T16:45:25.478015",
+    "embedding": null
+  },
+  {
+    "title": "** Verification of Solutions in Original Equation  \n**",
+    "description": "** Always substitute the final solutions back into the original equation to confirm their validity.  \n**",
+    "content": "** The solution $ y = 3 $ was verified by plugging it into $ |3 - 6| + 2(3) = 9 $, confirming that it satisfies the equation. This step is essential to catch algebraic errors or misapplications of the absolute value rule. The verification process is generalizable to any equation where solutions may have been discarded due to constraints.",
+    "source_problem_id": "math_33",
+    "success": true,
+    "created_at": "2025-10-13T16:45:25.478020",
+    "embedding": null
+  },
+  {
+    "title": "Completing the Square for General Circle Equations**  \n**",
+    "description": "** The key strategy involves rearranging the equation to group x and y terms, then completing the square for each variable to convert the equation into standard form.  \n**",
+    "content": "** To convert the general form $ x^2 + y^2 + Dx + Ey + F = 0 $ into standard form $ (x - h)^2 + (y - k)^2 = r^2 $, follow these steps:  \n1. Group x and y terms: $ x^2 + Dx + y^2 + Ey = -F $.  \n2. Complete the square for x: add $ \\left(\\frac{D}{2}\\right)^2 $ to both sides.  \n3. Complete the square for y: add $ \\left(\\frac{E}{2}\\right)^2 $ to both sides.  \n4. Rewrite the equation as $ (x + \\frac{D}{2})^2 + (y + \\frac{E}{2})^2 = \\left(\\frac{D}{2}\\right)^2 + \\left(\\frac{E}{2}\\right)^2 - F $.  \nThis method allows identifying the center $ (-\\frac{D}{2}, -\\frac{E}{2}) $ and radius $ \\sqrt{\\left(\\frac{D}{2}\\right)^2 + \\left(\\frac{E}{2}\\right)^2 - F} $.",
+    "source_problem_id": "math_34",
+    "success": true,
+    "created_at": "2025-10-13T16:45:36.845712",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Center Coordinates from Standard Form**  \n**",
+    "description": "** Once the equation is in standard form, the center coordinates $ (h, k) $ are directly derived from the squared terms.  \n**",
+    "content": "** For $ (x - h)^2 + (y - k)^2 = r^2 $, the center is $ (h, k) $. In the context of the problem, after completing the square, the center is $ (-\\frac{D}{2}, -\\frac{E}{2}) $, which is calculated from the coefficients of the original equation.",
+    "source_problem_id": "math_34",
+    "success": true,
+    "created_at": "2025-10-13T16:45:36.845725",
+    "embedding": null
+  },
+  {
+    "title": "Summing Coordinates to Find $ x + y $**  \n**",
+    "description": "** After determining the center coordinates $ (h, k) $, the sum $ x + y $ is simply $ h + k $.  \n**",
+    "content": "** This strategy is generalizable to any circle equation. For example, if the center is $ (a, b) $, then $ x + y = a + b $. This directly applies to the problem where the center is $ (-1, -5) $, leading to $ -1 + (-5) = -6 $.",
+    "source_problem_id": "math_34",
+    "success": true,
+    "created_at": "2025-10-13T16:45:36.845730",
+    "embedding": null
+  },
+  {
+    "title": "DISTANCE FORMULA APPLICATION",
+    "description": "The primary strategy involved using the distance formula to compute the distances from the guessed point $ P = (4, 2) $ to each vertex $ A, B, C $.",
+    "content": "The distance formula $ \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} $ was applied to calculate $ PA, PB, $ and $ PC $. This method is fundamental in coordinate geometry for determining distances between points.",
+    "source_problem_id": "math_35",
+    "success": true,
+    "created_at": "2025-10-13T16:45:48.095565",
+    "embedding": null
+  },
+  {
+    "title": "COMPONENTS ADDITION",
+    "description": "The problem required summing the computed distances, which were broken down into individual components for simplicity.",
+    "content": "Each distance was calculated separately and then summed. This approach ensures clarity and accuracy in handling the sum of distances, especially when they involve radicals.",
+    "source_problem_id": "math_35",
+    "success": true,
+    "created_at": "2025-10-13T16:45:48.095591",
+    "embedding": null
+  },
+  {
+    "title": "RADICAL SIMPLIFICATION",
+    "description": "Simplifying radicals was crucial to express the final sum in the form $ m + n\\sqrt{5} $.",
+    "content": "The radical expressions were simplified, such as $ \\sqrt{20} = 2\\sqrt{5} $, to achieve the required format. This step is essential for expressing the answer in the specified form.",
+    "source_problem_id": "math_35",
+    "success": true,
+    "created_at": "2025-10-13T16:45:48.095596",
+    "embedding": null
+  },
+  {
+    "title": "**Identify the Constant of Proportionality**",
+    "description": "**Use the given terms to determine the constant of proportionality (k) by solving the inverse relationship.**",
+    "content": "When a sequence is defined by $ a_n = \\frac{k}{a_{n-1}} $, the constant $ k $ can be found by substituting the known values. For example, with $ a_1 = 2 $ and $ a_2 = 5 $, solving $ 5 = \\frac{k}{2} $ yields $ k = 10 $. This constant governs the relationship between all consecutive terms.",
+    "source_problem_id": "math_37",
+    "success": true,
+    "created_at": "2025-10-13T16:46:12.834980",
+    "embedding": null
+  },
+  {
+    "title": "**Recognize the Periodic Pattern**",
+    "description": "**Determine the repeating cycle of the sequence to predict future terms.**",
+    "content": "Once $ k $ is known, the sequence alternates between 2 and 5 (e.g., $ a_1 = 2 $, $ a_2 = 5 $, $ a_3 = 2 $, $ a_4 = 5 $, etc.). This periodicity (cycle length of 2) allows direct computation of any term based on its position in the sequence.",
+    "source_problem_id": "math_37",
+    "success": true,
+    "created_at": "2025-10-13T16:46:12.834994",
+    "embedding": null
+  },
+  {
+    "title": "**Apply Position-Based Logic to Determine the Term**",
+    "description": "**Use the parity (odd/even) of the term\u2019s position to classify its value in the cycle.**",
+    "content": "If the sequence alternates between 2 and 5, the 12th term (even) corresponds to 5. This strategy generalizes to any term: if $ n $ is odd, the term is 2; if even, it is 5. This logic applies to sequences with fixed periodic cycles.  \n\n**Why These Strategies Work:**  \n1. **Constant Identification:** The inverse proportionality relationship allows solving for $ k $ using the first two terms, ensuring consistency across the sequence.  \n2. **Cycle Recognition:** The alternating pattern (2, 5, 2, 5, ...) emerges from the recursive formula, enabling rapid term prediction without explicit computation.  \n3. **Positional Logic:** By mapping term positions to their cycle values (odd/even), the solution becomes straightforward, applicable to any sequence with a fixed, repeating pattern.  \n\nThese strategies are generalizable to problems involving recursive sequences with inverse relationships, where identifying the constant, detecting periodicity, and applying positional rules are critical.",
+    "source_problem_id": "math_37",
+    "success": true,
+    "created_at": "2025-10-13T16:46:12.835003",
+    "embedding": null
+  },
+  {
+    "title": "Use Vieta's Formulas to Find Roots Sum and Product",
+    "description": "Apply Vieta's formulas to the quadratic equation to directly obtain the sum and product of the roots.",
+    "content": "For the quadratic equation $x^2 + 12x - 85 = 0$, Vieta's formulas give $p + q = -12$ and $pq = -85$. These values are used to compute $(p + 3)(q + 3)$.",
+    "source_problem_id": "math_38",
+    "success": true,
+    "created_at": "2025-10-13T16:46:30.094376",
+    "embedding": null
+  },
+  {
+    "title": "Algebraic Expansion of (p + 3)(q + 3)",
+    "description": "Use algebraic expansion to express $(p + 3)(q + 3)$ in terms of $pq$ and $p + q$.",
+    "content": "The expression $(p + 3)(q + 3)$ expands to $pq + 3(p + q) + 9$. Substituting the known values from Vieta's formulas allows the computation of the result.",
+    "source_problem_id": "math_38",
+    "success": true,
+    "created_at": "2025-10-13T16:46:30.094390",
+    "embedding": null
+  },
+  {
+    "title": "Substitution of Known Values into the Expression",
+    "description": "Substitute the values of $p + q$ and $pq$ obtained from Vieta's formulas into the expanded expression for $(p + 3)(q + 3)$.",
+    "content": "Using $pq = -85$ and $p + q = -12$, the expression becomes $-85 + 3(-12) + 9 = -112$. This demonstrates how the algebraic identity can be applied to find the final result.",
+    "source_problem_id": "math_38",
+    "success": true,
+    "created_at": "2025-10-13T16:46:30.094395",
+    "embedding": null
+  },
+  {
+    "title": "**Square Both Sides to Eliminate Square Roots**",
+    "description": "When dealing with inequalities involving square roots, squaring both sides is a standard technique to remove the radicals while preserving the inequality direction. This is particularly effective when both sides of the inequality are non-negative, which is ensured by the domain restrictions.",
+    "content": "The solution begins by squaring both sides of the inequalities to eliminate the square roots. For example, in the first inequality $ \\sqrt{n} \\le \\sqrt{4n - 6} $, squaring both sides gives $ n \\le 4n - 6 $, which simplifies to $ n \\ge 2 $. Similarly, for the second inequality $ \\sqrt{4n - 6} < \\sqrt{2n + 5} $, squaring both sides gives $ 4n - 6 < 2n + 5 $, leading to $ n < 5.5 $. This method is generalizable for inequalities involving square roots where the expressions inside the radicals are non-negative.",
+    "source_problem_id": "math_39",
+    "success": true,
+    "created_at": "2025-10-13T16:46:46.931318",
+    "embedding": null
+  },
+  {
+    "title": "**Check Domain Restrictions First**",
+    "description": "Before solving inequalities involving square roots, it is essential to determine the domain of the variables to ensure that the expressions inside the radicals are non-negative. This step is critical to avoid invalid solutions and to establish the valid range of values for the variables.",
+    "content": "The domain restrictions are derived by ensuring that $ n \\ge 0 $, $ 4n - 6 \\ge 0 $, and $ 2n + 5 \\ge 0 $. These constraints narrow the possible values of $ n $, which is necessary for the inequalities to be valid. For instance, $ n \\ge 2 $ is derived from $ 4n - 6 \\ge 0 $, and this is combined with the earlier domain restriction to form the overall solution set.",
+    "source_problem_id": "math_39",
+    "success": true,
+    "created_at": "2025-10-13T16:46:46.931332",
+    "embedding": null
+  },
+  {
+    "title": "**Combine Solution Sets by Intersection**",
+    "description": "When solving compound inequalities, the solution set is the intersection of the individual solution sets from each inequality. This involves finding the overlapping values that satisfy all conditions simultaneously.",
+    "content": "After solving each inequality separately, the solution sets are combined by taking their intersection. In this problem, the first inequality gives $ n \\ge 2 $, and the second gives $ n \\le 5 $. The intersection of these sets results in $ 2 \\le n \\le 5 $, which, when considering integer values, yields $ n = 2, 3, 4, 5 $. This method is generalizable for solving compound inequalities involving multiple constraints.",
+    "source_problem_id": "math_39",
+    "success": true,
+    "created_at": "2025-10-13T16:46:46.931338",
+    "embedding": null
+  },
+  {
+    "title": "**Factor and Convert Base Strategy**",
+    "description": "Combines like terms by factoring out the common base and converting coefficients to powers of the same base to simplify exponents.",
+    "content": "When simplifying $4 \\times 16^{16}$, factor out $16^{16}$ and express 4 as $2^2$. Then, rewrite 16 as $2^4$ to align bases, enabling exponent rules to combine terms. This strategy is generalizable for problems with repeated terms and bases that can be expressed as powers of a common base.",
+    "source_problem_id": "math_40",
+    "success": true,
+    "created_at": "2025-10-13T16:46:57.132623",
+    "embedding": null
+  },
+  {
+    "title": "**Exponent Rule Application Strategy**",
+    "description": "Applies properties of exponents (e.g., $a^m \\times a^n = a^{m+n}$ and $(a^m)^n = a^{mn}$) to simplify expressions.",
+    "content": "After expressing $2^2 \\times (2^4)^{16}$, simplify $(2^4)^{16} = 2^{64}$, then combine $2^2 \\times 2^{64} = 2^{66}$. This strategy is applicable to problems requiring exponentiation and multiplication of like bases.",
+    "source_problem_id": "math_40",
+    "success": true,
+    "created_at": "2025-10-13T16:46:57.132637",
+    "embedding": null
+  },
+  {
+    "title": "**Base Conversion Strategy**",
+    "description": "Converts all terms to a common base (here, base 2) to simplify the equation and apply exponent rules.",
+    "content": "Recognizing that $16 = 2^4$ allows rewriting the equation in base 2, enabling the use of exponent rules to combine terms. This strategy is generalizable for problems involving mixed bases and exponents.",
+    "source_problem_id": "math_40",
+    "success": true,
+    "created_at": "2025-10-13T16:46:57.132643",
+    "embedding": null
+  },
+  {
+    "title": "Algebraic Representation of Consecutive Numbers**  \n**",
+    "description": "** Recognize that consecutive numbers can be represented as $ x $ and $ x + 1 $, allowing the formation of a quadratic equation.  \n**",
+    "content": "** This strategy involves translating the problem into algebraic terms by defining variables for consecutive numbers, which is a foundational approach for solving problems involving sequences or products of consecutive values.",
+    "source_problem_id": "math_41",
+    "success": true,
+    "created_at": "2025-10-13T16:47:07.949942",
+    "embedding": null
+  },
+  {
+    "title": "Formulating Quadratic Equations from Product Relationships**  \n**",
+    "description": "** Convert the product of consecutive numbers into a quadratic equation by expanding $ x(x + 1) = \\text{given product} $.  \n**",
+    "content": "** This strategy is generalizable to problems where the product of consecutive integers is known. By setting up the equation $ x^2 + x - \\text{product} = 0 $, the problem becomes a quadratic equation that can be solved using standard methods.",
+    "source_problem_id": "math_41",
+    "success": true,
+    "created_at": "2025-10-13T16:47:07.949957",
+    "embedding": null
+  },
+  {
+    "title": "Solving Quadratic Equations with the Quadratic Formula**  \n**",
+    "description": "** Apply the quadratic formula to solve for $ x $, ensuring correct calculation of the discriminant and selection of the appropriate root.  \n**",
+    "content": "** This strategy is critical for solving quadratic equations when factoring is not feasible. By computing the discriminant $ \\sqrt{b^2 - 4ac} $ and selecting the positive root, the solution is validated, ensuring accuracy in finding consecutive numbers.  \n\n**Why These Strategies Work:**  \nThese strategies are applicable to any problem involving consecutive integers or products. The first strategy simplifies the problem by abstracting the sequence into variables, the second transforms the problem into a solvable quadratic equation, and the third provides a systematic method to solve the equation. Their combination ensures reliability and generalizability across similar mathematical scenarios.",
+    "source_problem_id": "math_41",
+    "success": true,
+    "created_at": "2025-10-13T16:47:07.949963",
+    "embedding": null
+  },
+  {
+    "title": "Vieta's Formula for Sum of Roots",
+    "description": "Directly apply Vieta's formula to find the sum of roots without solving for individual roots.",
+    "content": "For a quadratic equation $ ax^2 + bx + c = 0 $, the sum of the roots is $ -\\frac{b}{a} $. In this case, the equation $ x^2 - 5x - 4 = 0 $ has $ a = 1 $ and $ b = -5 $, leading to the sum $ -\\frac{-5}{1} = 5 $.",
+    "source_problem_id": "math_42",
+    "success": true,
+    "created_at": "2025-10-13T16:47:22.283411",
+    "embedding": null
+  },
+  {
+    "title": "Quadratic Formula and Root Addition",
+    "description": "Use the quadratic formula to find the roots and then add them algebraically.",
+    "content": "The quadratic formula $ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} $ yields roots $ \\frac{5 \\pm \\sqrt{41}}{2} $. Adding these roots results in $ \\frac{5 + \\sqrt{41}}{2} + \\frac{5 - \\sqrt{41}}{2} = \\frac{10}{2} = 5 $, confirming the sum via algebraic manipulation.",
+    "source_problem_id": "math_42",
+    "success": true,
+    "created_at": "2025-10-13T16:47:22.283425",
+    "embedding": null
+  },
+  {
+    "title": "Completing the Square for Root Sum",
+    "description": "Solve the quadratic equation by completing the square and then add the roots.",
+    "content": "By completing the square, the equation $ x^2 - 5x - 4 = 0 $ becomes $ (x - \\frac{5}{2})^2 = \\frac{41}{4} $, leading to roots $ \\frac{5 \\pm \\sqrt{41}}{2} $. Adding these roots results in $ \\frac{10}{2} = 5 $, demonstrating the same result.",
+    "source_problem_id": "math_42",
+    "success": true,
+    "created_at": "2025-10-13T16:47:22.283429",
+    "embedding": null
+  },
+  {
+    "title": "Critical Point Identification Strategy",
+    "description": "Identify critical points by solving each factor of the expression equal to zero.",
+    "content": "To solve inequalities involving products of linear factors, first determine the values of n where each factor equals zero. These values (n = -3 and n = 7 in this case) are called critical points. These points divide the number line into intervals where the expression's sign can be determined. This strategy is generalizable to any inequality of the form (n - a)(n - b) \u2264 0, where a and b are constants.",
+    "source_problem_id": "math_44",
+    "success": true,
+    "created_at": "2025-10-13T16:47:51.184603",
+    "embedding": null
+  },
+  {
+    "title": "Interval Sign Testing Strategy",
+    "description": "Test the sign of the expression in each interval between critical points to determine where the inequality holds.",
+    "content": "After identifying critical points, test the sign of the expression in each interval defined by these points. For example, in the interval (-\u221e, -3), the product (n+3)(n-7) is positive; in (-3, 7), it is negative; and in (7, \u221e), it is positive. This strategy is transferable to any inequality where the expression is a product of linear terms, as it allows systematic analysis of sign changes.",
+    "source_problem_id": "math_44",
+    "success": true,
+    "created_at": "2025-10-13T16:47:51.184620",
+    "embedding": null
+  },
+  {
+    "title": "Inclusion of Critical Points Strategy",
+    "description": "Include critical points in the solution if the inequality is \u2264 0.",
+    "content": "When the inequality is \u2264 0, the solution includes the critical points where the expression equals zero. This is because the inequality is satisfied at the endpoints where the expression is zero. This strategy is applicable to any inequality involving products of linear factors, as it ensures that the solution accounts for both the sign changes and the equality conditions.",
+    "source_problem_id": "math_44",
+    "success": true,
+    "created_at": "2025-10-13T16:47:51.184626",
+    "embedding": null
+  },
+  {
+    "title": "Extract Coefficients from Given Equation",
+    "description": "Recognize that the quadratic function is provided in the standard form $ y = ax^2 + bx + c $, and extract the coefficients $ a $, $ b $, and $ c $ directly from the equation.",
+    "content": "The Asymptote code defines the function as $ f(x) = x^2 + 2x - 1 $, which directly gives the coefficients $ a = 1 $, $ b = 2 $, and $ c = -1 $. This strategy works when the equation is explicitly provided in the standard form, allowing direct identification of the coefficients.",
+    "source_problem_id": "math_45",
+    "success": true,
+    "created_at": "2025-10-13T16:48:04.083172",
+    "embedding": null
+  },
+  {
+    "title": "Substitute Coefficients into the Expression",
+    "description": "Use the known values of $ a $, $ b $, and $ c $ to compute the required expression $ a - b + c $.",
+    "content": "By substituting the values $ a = 1 $, $ b = 2 $, and $ c = -1 $ into the expression $ a - b + c $, the calculation becomes $ 1 - 2 + (-1) = -2 $. This strategy is generalizable when the coefficients are known, and the expression to evaluate is a simple combination of the coefficients.",
+    "source_problem_id": "math_45",
+    "success": true,
+    "created_at": "2025-10-13T16:48:04.083186",
+    "embedding": null
+  },
+  {
+    "title": "Perform Arithmetic Calculation",
+    "description": "Compute the final result by performing the arithmetic operations on the substituted coefficients.",
+    "content": "The arithmetic calculation $ 1 - 2 + (-1) $ simplifies to $ -2 $. This strategy is applicable when the coefficients are known and the expression is straightforward, ensuring the result is obtained through direct computation.",
+    "source_problem_id": "math_45",
+    "success": true,
+    "created_at": "2025-10-13T16:48:04.083192",
+    "embedding": null
+  },
+  {
+    "title": "**Pattern Recognition and Factoring**",
+    "description": "Recognize and factor quadratic patterns in the numerator to simplify the expression.",
+    "content": "The numerator $ x^8 + 12x^4 + 36 $ is a perfect square trinomial, which can be factored as $ (x^4 + 6)^2 $. This allows the expression to be simplified by canceling the common factor $ x^4 + 6 $ in the numerator and denominator, reducing the expression to $ x^4 + 6 $. This strategy works by identifying algebraic patterns and applying factoring techniques to reduce complexity.",
+    "source_problem_id": "math_46",
+    "success": true,
+    "created_at": "2025-10-13T16:48:18.373549",
+    "embedding": null
+  },
+  {
+    "title": "**Simplification via Common Factors**",
+    "description": "Simplify expressions by canceling common factors in the numerator and denominator.",
+    "content": "When the numerator and denominator share a common factor (e.g., $ x^4 + 6 $), dividing them reduces the expression to a simpler form. This technique is generalizable to problems where algebraic expressions can be reduced by canceling terms, enabling further evaluation or simplification.",
+    "source_problem_id": "math_46",
+    "success": true,
+    "created_at": "2025-10-13T16:48:18.373563",
+    "embedding": null
+  },
+  {
+    "title": "**Substitution into Simplified Expressions**",
+    "description": "Substitute the given value into the simplified expression after algebraic manipulation.",
+    "content": "After simplifying the original expression to $ x^4 + 6 $, substituting $ x = 5 $ directly yields the result. This strategy is applicable to any problem where an expression is simplified and evaluated at a specific value, emphasizing the importance of intermediate steps in problem-solving.",
+    "source_problem_id": "math_46",
+    "success": true,
+    "created_at": "2025-10-13T16:48:18.373567",
+    "embedding": null
+  },
+  {
+    "title": "**Use Algebraic Identity for Sum of Squares**",
+    "description": "**Apply the identity $ x^2 + y^2 = (x - y)^2 + 2xy $** to simplify the problem by converting the sum of squares into a form involving the known difference and product.",
+    "content": "This strategy leverages a standard algebraic identity that directly relates the square of a difference to the sum of squares and the product. By substituting the given values into the identity, the problem becomes straightforward, avoiding the need to solve for individual variables. This approach is generalizable to problems where the sum of squares is required when only the difference and product of variables are known.",
+    "source_problem_id": "math_47",
+    "success": true,
+    "created_at": "2025-10-13T16:48:32.020644",
+    "embedding": null
+  },
+  {
+    "title": "**Substitute Known Values Directly**",
+    "description": "**Plug in the given values into the identity** $ x^2 + y^2 = (x - y)^2 + 2xy $ to compute the result.",
+    "content": "This strategy emphasizes the importance of substituting known numerical values into the identity rather than solving for variables individually. It highlights the efficiency of using identities to bypass complex computations, making it applicable to similar problems involving quadratic expressions.",
+    "source_problem_id": "math_47",
+    "success": true,
+    "created_at": "2025-10-13T16:48:32.020658",
+    "embedding": null
+  },
+  {
+    "title": "**Recognize the Problem Structure**",
+    "description": "**Identify the problem as fitting the identity $ x^2 + y^2 = (x - y)^2 + 2xy $** by recognizing the relationship between the given difference and product.",
+    "content": "This strategy involves understanding the underlying mathematical structure of the problem. By recognizing that the given values (difference and product) align with the identity\u2019s components, the solution becomes intuitive. This approach is generalizable to problems where the sum of squares is required when only the difference and product are known, requiring the application of similar identities.",
+    "source_problem_id": "math_47",
+    "success": true,
+    "created_at": "2025-10-13T16:48:32.020665",
+    "embedding": null
+  },
+  {
+    "title": "Complete the Square to Find the Center",
+    "description": "Convert the general form of the circle into standard form by completing the square, which allows identifying the center coordinates directly.",
+    "content": "To find the center of the circle, rewrite the given equation $ x^2 + y^2 = -4x + 6y - 12 $ in standard form by completing the square. This involves moving all terms to one side, then adding and subtracting the necessary squares to form perfect squares on both $ x $ and $ y $ terms. This process reveals the center of the circle as $ (-2, 3) $.",
+    "source_problem_id": "math_48",
+    "success": true,
+    "created_at": "2025-10-13T16:48:46.717769",
+    "embedding": null
+  },
+  {
+    "title": "Apply the Distance Formula",
+    "description": "Use the distance formula to calculate the distance between the center of the circle and a given point.",
+    "content": "Once the center of the circle is determined, apply the distance formula $ \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} $ between the center $ (-2, 3) $ and the point $ (1, 7) $. This formula calculates the straight-line distance between two points in a coordinate plane.",
+    "source_problem_id": "math_48",
+    "success": true,
+    "created_at": "2025-10-13T16:48:46.717784",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Standard Form of a Circle",
+    "description": "Identify the center of the circle from its standard form equation.",
+    "content": "The standard form of a circle is $ (x - h)^2 + (y - k)^2 = r^2 $, where $ (h, k) $ is the center and $ r $ is the radius. By recognizing this form, one can directly extract the center coordinates from the equation, which is crucial for calculating the distance.",
+    "source_problem_id": "math_48",
+    "success": true,
+    "created_at": "2025-10-13T16:48:46.717789",
+    "embedding": null
+  },
+  {
+    "title": "**Check the Denominator for Correct Equation**",
+    "description": "Ensure the denominator is correctly written and set to zero.",
+    "content": "Always verify that the denominator is correctly expressed and that the equation is set to zero. A mistake in the denominator (e.g., incorrect sign or coefficient) will lead to an incorrect solution.",
+    "source_problem_id": "math_49",
+    "success": false,
+    "created_at": "2025-10-13T16:48:58.887684",
+    "embedding": null
+  },
+  {
+    "title": "**Double-Check Arithmetic Steps**",
+    "description": "Carefully solve the equation step by step to avoid simple arithmetic errors.",
+    "content": "When solving $ 5x - 7 = 0 $, ensure each step (e.g., adding 7 to both sides, dividing by 5) is performed accurately. A miscalculation here can lead to an incorrect value for $ x $.",
+    "source_problem_id": "math_49",
+    "success": false,
+    "created_at": "2025-10-13T16:48:58.887698",
+    "embedding": null
+  },
+  {
+    "title": "**Confirm No Common Factors**",
+    "description": "Ensure the numerator and denominator have no common factors.",
+    "content": "If the numerator and denominator share common factors, the vertical asymptote might not exist or could be simplified. In this case, the numerator $ x + 2 $ and denominator $ 5x - 7 $ have no common factors, so the solution is valid.",
+    "source_problem_id": "math_49",
+    "success": false,
+    "created_at": "2025-10-13T16:48:58.887702",
+    "embedding": null
+  },
+  {
+    "title": "INVERSE FUNCTION IDENTIFICATION",
+    "description": "To find $ f^{-1}(x) $, identify the input $ x $ such that $ f(x) = y $, which requires swapping the input and output values of the original function.",
+    "content": "The inverse function swaps the domain and codomain of $ f $. For example, if $ f(2) = 1 $, then $ f^{-1}(1) = 2 $. This step is critical for determining the first application of the inverse function.",
+    "source_problem_id": "math_51",
+    "success": true,
+    "created_at": "2025-10-13T16:49:35.752375",
+    "embedding": null
+  },
+  {
+    "title": "STEPWISE APPLICATION OF INVERSE FUNCTION",
+    "description": "Apply the inverse function iteratively by finding the input that maps to the current output in the original function.",
+    "content": "Each application of $ f^{-1} $ requires locating the input $ x $ such that $ f(x) = $ the current output value. For instance, $ f^{-1}(2) = 5 $ because $ f(5) = 2 $. This process is repeated for each subsequent application.",
+    "source_problem_id": "math_51",
+    "success": true,
+    "created_at": "2025-10-13T16:49:35.752395",
+    "embedding": null
+  },
+  {
+    "title": "REVERSIBILITY OF INVERSE FUNCTIONS",
+    "description": "The inverse function is a bijection, ensuring that each value in the codomain maps to exactly one value in the domain, allowing consistent and reversible operations.",
+    "content": "Since $ f^{-1} $ is bijective, applying it multiple times guarantees that each step is valid and the results are consistent. This property ensures that the final result is accurate and predictable.",
+    "source_problem_id": "math_51",
+    "success": true,
+    "created_at": "2025-10-13T16:49:35.752403",
+    "embedding": null
+  },
+  {
+    "title": "Setting the equation equal to the target value",
+    "description": "The first step in solving any equation is to set the given function equal to the target value (77 in this case). This allows us to form a quadratic equation.",
+    "content": "When solving for $ t $ in the temperature equation $ -t^2 + 12t + 50 = 77 $, the first step is to equate the function to 77, creating the equation $ -t^2 + 12t + 50 = 77 $. This step is generalizable to any problem where a function equals a specific value, such as finding when a physical quantity reaches a certain threshold.",
+    "source_problem_id": "math_53",
+    "success": true,
+    "created_at": "2025-10-13T16:50:09.957053",
+    "embedding": null
+  },
+  {
+    "title": "Rearranging to standard quadratic form",
+    "description": "After setting the equation equal to the target, the next step is to rearrange the equation into the standard quadratic form $ ax^2 + bx + c = 0 $ by moving all terms to one side.",
+    "content": "This involves subtracting 77 from both sides to get $ -t^2 + 12t - 27 = 0 $, then multiplying by $ -1 $ to simplify the leading coefficient to positive 1, resulting in $ t^2 - 12t + 27 = 0 $. This standard form is essential for applying the quadratic formula, as it ensures the equation is in the correct format for solving.",
+    "source_problem_id": "math_53",
+    "success": true,
+    "created_at": "2025-10-13T16:50:09.957069",
+    "embedding": null
+  },
+  {
+    "title": "Applying the quadratic formula",
+    "description": "The quadratic formula is a systematic method for solving any quadratic equation of the form $ ax^2 + bx + c = 0 $. It provides the solutions for $ x $ (or $ t $ in this case) in terms of the coefficients.",
+    "content": "Once the equation is in standard form, the quadratic formula $ t = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} $ is applied with $ a = 1 $, $ b = -12 $, and $ c = 27 $. This step is generalizable to any quadratic equation, as it provides an exact method to find the roots regardless of the coefficients. The largest root obtained is the solution to the problem.",
+    "source_problem_id": "math_53",
+    "success": true,
+    "created_at": "2025-10-13T16:50:09.957075",
+    "embedding": null
+  },
+  {
+    "title": "Rearranging and Factoring Quadratic Inequalities",
+    "description": "Solving quadratic inequalities involves moving all terms to one side to form a quadratic expression, then factoring if possible to identify critical points.",
+    "content": "When solving $ x^2 + 5x < 6 $, the first step is to rearrange the inequality to $ x^2 + 5x - 6 < 0 $. This step ensures the inequality is in the standard form $ ax^2 + bx + c < 0 $. Factoring the quadratic $ x^2 + 5x - 6 $ into $ (x + 6)(x - 1) $ allows identifying the critical points $ x = -6 $ and $ x = 1 $. These points divide the number line into intervals, which are tested for the inequality's validity.",
+    "source_problem_id": "math_56",
+    "success": true,
+    "created_at": "2025-10-13T16:50:52.531571",
+    "embedding": null
+  },
+  {
+    "title": "Interval Testing for Inequality Solutions",
+    "description": "After identifying critical points, testing intervals around these points determines where the inequality holds true.",
+    "content": "The critical points $ x = -6 $ and $ x = 1 $ divide the number line into three intervals: $ (-\\infty, -6) $, $ (-6, 1) $, and $ (1, \\infty) $. By testing each interval, the sign of the quadratic expression is determined. Since the product $ (x + 6)(x - 1) $ is negative between $ -6 $ and $ 1 $, the solution to the inequality is the open interval $ (-6, 1) $.",
+    "source_problem_id": "math_56",
+    "success": true,
+    "created_at": "2025-10-13T16:50:52.531595",
+    "embedding": null
+  },
+  {
+    "title": "Generalizable Strategy for Quadratic Inequalities",
+    "description": "Applying the same steps\u2014rearranging, factoring, and interval testing\u2014works for any quadratic inequality, regardless of whether it factors or not.",
+    "content": "This strategy is applicable to any quadratic inequality of the form $ ax^2 + bx + c < 0 $ or $ > 0 $. If the quadratic is not factorable, the quadratic formula can be used to find the roots, which are then used to test intervals. The key is to identify critical points, test intervals, and determine where the inequality holds true based on the sign of the quadratic expression.",
+    "source_problem_id": "math_56",
+    "success": true,
+    "created_at": "2025-10-13T16:50:52.531603",
+    "embedding": null
+  },
+  {
+    "title": "Eliminate Denominators",
+    "description": "Multiply both sides by the common denominator to remove fractions.",
+    "content": "Multiply both sides of the equation by $ x - 5 $ to eliminate denominators, assuming $ x \\neq 5 $. This simplifies the equation to a polynomial equation, which can then be solved by expanding and matching coefficients.",
+    "source_problem_id": "math_57",
+    "success": true,
+    "created_at": "2025-10-13T16:51:12.941766",
+    "embedding": null
+  },
+  {
+    "title": "Expand and Match Coefficients",
+    "description": "Expand the left-hand side after eliminating denominators and equate coefficients of corresponding powers of $ x $.",
+    "content": "After expanding the left-hand side, compare the coefficients of $ x^2 $, $ x $, and the constant term with those on the right-hand side. This allows solving for $ A $ and $ B $ by setting up equations based on each power of $ x $.",
+    "source_problem_id": "math_57",
+    "success": true,
+    "created_at": "2025-10-13T16:51:12.941779",
+    "embedding": null
+  },
+  {
+    "title": "Solve by Equating Coefficients",
+    "description": "Solve for variables by equating coefficients of like terms after expanding the equation.",
+    "content": "Once the equation is in polynomial form, set the coefficients of each power of $ x $ equal to those on the right-hand side. This leads to a system of equations that can be solved for $ A $ and $ B $.",
+    "source_problem_id": "math_57",
+    "success": true,
+    "created_at": "2025-10-13T16:51:12.941784",
+    "embedding": null
+  },
+  {
+    "title": "Step-by-Step Computation Strategy",
+    "description": "Break down the problem into computing the square root, applying the negative sign, and then evaluating the ceiling function.",
+    "content": "When evaluating expressions involving square roots and ceiling functions, first compute the square root of the fraction, apply the negative sign, and then determine the smallest integer greater than or equal to the resulting value. This strategy is generalizable to problems involving roots and ceiling functions where intermediate steps are critical.",
+    "source_problem_id": "math_58",
+    "success": true,
+    "created_at": "2025-10-13T16:51:22.554796",
+    "embedding": null
+  },
+  {
+    "title": "Understanding Ceiling Function Behavior for Negative Numbers",
+    "description": "Recognize that the ceiling function rounds up to the nearest integer for negative numbers, requiring knowledge of the number's position relative to integers.",
+    "content": "For negative numbers, the ceiling function returns the smallest integer greater than or equal to the number. This requires identifying the integer bounds (e.g., -4 to -3 for -3.5) and selecting the smallest integer in that range. This strategy is applicable to problems where the ceiling function is applied to negative values or mixed numbers.",
+    "source_problem_id": "math_58",
+    "success": true,
+    "created_at": "2025-10-13T16:51:22.554814",
+    "embedding": null
+  },
+  {
+    "title": "Generalizable Properties of Square Roots and Ceiling Functions",
+    "description": "Apply properties of square roots and ceiling functions to simplify and solve complex expressions.",
+    "content": "Square roots of fractions can be simplified to exact values (e.g., \u221a(49/4) = 7/2), and applying the negative sign is straightforward. The ceiling function's behavior for negative numbers is critical, requiring careful analysis of the number's position on the number line. This strategy is transferable to problems involving roots, absolute values, or other operations requiring integer rounding.",
+    "source_problem_id": "math_58",
+    "success": true,
+    "created_at": "2025-10-13T16:51:22.554821",
+    "embedding": null
+  },
+  {
+    "title": "System of Equations Solution Strategy**  \n**",
+    "description": "** Solving a system of equations derived from two points on a line to find the slope (a) and y-intercept (b).  \n**",
+    "content": "** When a line passes through two points, substituting each point into the equation $ y = ax + b $ creates two equations. By subtracting one equation from the other, the y-intercept $ b $ is eliminated, allowing the slope $ a $ to be solved directly. This method is generalizable for any linear system with two points.",
+    "source_problem_id": "math_59",
+    "success": true,
+    "created_at": "2025-10-13T16:51:37.044241",
+    "embedding": null
+  },
+  {
+    "title": "Elimination Method for Variable Elimination**  \n**",
+    "description": "** Using subtraction to eliminate a variable (here, $ b $) by subtracting the first equation from the second.  \n**",
+    "content": "** The elimination method is a standard technique in solving systems of equations. By subtracting the first equation from the second, the $ b $ terms cancel out, simplifying the problem to solving for $ a $. This step is critical for reducing the system to a single variable and is applicable to any similar problem involving two linear equations.",
+    "source_problem_id": "math_59",
+    "success": true,
+    "created_at": "2025-10-13T16:51:37.044254",
+    "embedding": null
+  },
+  {
+    "title": "Substitution to Solve for the Second Variable**  \n**",
+    "description": "** Substituting the found value of $ a $ into one of the original equations to solve for $ b $.  \n**",
+    "content": "** Once $ a $ is determined, substitution is used to find $ b $ by plugging the known value of $ a $ back into one of the equations. This step ensures consistency and verifies the solution. This method is generalizable for any system where one variable is solved for and the other is substituted.  \n\n**Why These Strategies Work:**  \nThese strategies are foundational in solving linear systems and are applicable to any problem requiring the determination of line parameters (slope and intercept) from two points. The elimination method simplifies the system, while substitution ensures accuracy. These steps are transferable to problems involving other linear equations or different coordinate points.",
+    "source_problem_id": "math_59",
+    "success": true,
+    "created_at": "2025-10-13T16:51:37.044259",
+    "embedding": null
+  },
+  {
+    "title": "Step-by-Step Evaluation Strategy",
+    "description": "This strategy emphasizes evaluating the innermost functions first before proceeding outward, ensuring that each subsequent operation is based on the result of the previous one.",
+    "content": "When dealing with nested function compositions, it is essential to compute the innermost expressions first. This approach ensures that each intermediate result is accurate and ready for the next layer of computation. For example, in the given problem, the innermost function was $ f(19) $, which was computed first before moving to $ g(f(19)) $, and so on.",
+    "source_problem_id": "math_60",
+    "success": true,
+    "created_at": "2025-10-13T16:51:56.891077",
+    "embedding": null
+  },
+  {
+    "title": "Inverse Function Application Strategy",
+    "description": "This strategy focuses on correctly applying inverse functions in the specified order, ensuring that each inverse operation is applied to the result of the previous function.",
+    "content": "The inverse functions must be applied in the correct sequence as dictated by the problem. For instance, $ f^{-1} $ is applied twice before $ g^{-1} $, and each inverse operation is applied to the result of the prior function. This requires careful tracking of the order of operations to avoid errors.",
+    "source_problem_id": "math_60",
+    "success": true,
+    "created_at": "2025-10-13T16:51:56.891091",
+    "embedding": null
+  },
+  {
+    "title": "Function Composition and Order of Operations Strategy",
+    "description": "This strategy highlights the importance of maintaining the correct order of operations when composing functions, especially when dealing with nested expressions.",
+    "content": "When composing functions, the order of operations is crucial. Each function must be applied in the sequence dictated by the problem. For example, in the given problem, the composition involves applying $ f $ after $ g^{-1} $, which requires careful step-by-step evaluation to ensure the correct result. This approach is generalizable to any nested function composition where the order of operations is critical.",
+    "source_problem_id": "math_60",
+    "success": true,
+    "created_at": "2025-10-13T16:51:56.891096",
+    "embedding": null
+  },
+  {
+    "title": "Substitution to Find Intersection Point",
+    "description": "When given the x-coordinate of the intersection point, substitute it into one of the equations to find the corresponding y-value. This works because the intersection point lies on both lines, so substituting the known x into either equation gives the y-coordinate.",
+    "content": "To solve for $ k $, substitute $ x = -8.4 $ into the second equation $ 0.5x + y = 14 $ to find $ y $. This step uses the fact that the intersection point satisfies both equations. Once $ y $ is found, substitute both $ x = -8.4 $ and $ y = 18.2 $ into the first equation $ -2x + y = k $ to solve for $ k $. This method is generalizable for systems where a variable is known and the other variable is to be determined.",
+    "source_problem_id": "math_61",
+    "success": true,
+    "created_at": "2025-10-13T16:52:11.257288",
+    "embedding": null
+  },
+  {
+    "title": "Use Known Point to Solve for Unknown Constant",
+    "description": "After finding the y-value from the substitution step, use the known x and y values to substitute into the other equation to solve for the unknown constant $ k $. This is based on the principle that the intersection point must satisfy both equations.",
+    "content": "Once $ y = 18.2 $ is found, substitute $ x = -8.4 $ and $ y = 18.2 $ into the first equation $ -2x + y = k $ to compute $ k $. This step leverages the fact that the intersection point must satisfy both equations, allowing the unknown constant to be determined.",
+    "source_problem_id": "math_61",
+    "success": true,
+    "created_at": "2025-10-13T16:52:11.257302",
+    "embedding": null
+  },
+  {
+    "title": "Generalizable Strategy for Systems with Known Intersection Point",
+    "description": "When a system of linear equations has a known intersection point, substitution is a direct and efficient method to find the unknown parameter. This strategy is applicable to similar problems where a variable is known and the other variable or parameter is to be determined.",
+    "content": "The strategy involves substituting the known x-value into one equation to find the corresponding y-value, then using that y-value in the other equation to solve for the unknown constant. This approach is generalizable to systems where a variable is known and the other variable or parameter is to be determined, making it a versatile method for solving such problems.",
+    "source_problem_id": "math_61",
+    "success": true,
+    "created_at": "2025-10-13T16:52:11.257307",
+    "embedding": null
+  },
+  {
+    "title": "**Forgetting to Distribute the Factored Form**",
+    "description": "When factoring, it's crucial to ensure that the entire expression is accounted for in the factored form.",
+    "content": "Always double-check that all terms in the original expression are included in the factored form. For example, if the original expression is $2x(x - 3) + 3(x - 3)$, the factored form $(x - 3)(2x + 3)$ must expand back to the original expression. If you skip this step, you might miss a term or incorrectly simplify the expression.",
+    "source_problem_id": "math_62",
+    "success": false,
+    "created_at": "2025-10-13T16:52:23.696182",
+    "embedding": null
+  },
+  {
+    "title": "**Misapplying the Order of Operations**",
+    "description": "Confusing the order of operations (e.g., multiplying before adding) can lead to errors in factoring.",
+    "content": "When factoring, ensure that the common factor is correctly applied to all terms. For instance, if you factor out $(x - 3)$, you must multiply it by both $2x$ and $3$ in the original expression. If you mistakenly only apply the factor to one term, the result will be incorrect.",
+    "source_problem_id": "math_62",
+    "success": false,
+    "created_at": "2025-10-13T16:52:23.696205",
+    "embedding": null
+  },
+  {
+    "title": "**Overlooking the Sign of the Common Factor**",
+    "description": "A sign error when factoring can lead to an incorrect result.",
+    "content": "Always verify the sign of the terms in the factored form. For example, if the original expression has a positive $2x$ and a positive $3$, the factored form should have a positive $2x + 3$. If you incorrectly assign a negative sign to one term, the final result will be wrong.",
+    "source_problem_id": "math_62",
+    "success": false,
+    "created_at": "2025-10-13T16:52:23.696210",
+    "embedding": null
+  },
+  {
+    "title": "Solving Inequalities by Taking Square Roots",
+    "description": "Solves quadratic inequalities by taking square roots to find the bounds for the variable.",
+    "content": "When dealing with inequalities like $ n^2 > a $ or $ n^2 < b $, taking square roots is a key step. For positive $ n $, the square root of a number is positive, so the inequality direction remains the same. This allows determining the lower and upper bounds for $ n $.",
+    "source_problem_id": "math_64",
+    "success": true,
+    "created_at": "2025-10-13T16:52:58.317412",
+    "embedding": null
+  },
+  {
+    "title": "Counting Integers in a Range",
+    "description": "Calculates the number of integers between two bounds by using the formula $ \\text{upper} - \\text{lower} + 1 $.",
+    "content": "Once the bounds for $ n $ are determined, the number of integers between them inclusive can be found by subtracting the lower bound from the upper bound and adding 1. This is a general method for counting integers in a range.",
+    "source_problem_id": "math_64",
+    "success": true,
+    "created_at": "2025-10-13T16:52:58.317426",
+    "embedding": null
+  },
+  {
+    "title": "Applying Square Root Properties",
+    "description": "Uses the properties of square roots to determine the bounds for $ n $ in inequalities involving squares.",
+    "content": "For any inequality involving a square, taking the square root of both sides (considering the positive root since $ n $ is positive) gives the critical bounds. This method is applicable to similar problems where variables are squared and inequalities are involved.",
+    "source_problem_id": "math_64",
+    "success": true,
+    "created_at": "2025-10-13T16:52:58.317431",
+    "embedding": null
+  },
+  {
+    "title": "Identify Denominator Zeros",
+    "description": "The expression is undefined when the denominator equals zero. To find these values, set the denominator equal to zero and solve for x.",
+    "content": "When solving for undefined values in a rational expression, the critical step is identifying where the denominator becomes zero. This is done by setting the denominator equal to zero and solving for x. For example, in the given problem, the denominator $ x^2 - 20x + 100 $ is set to zero and factored as $ (x - 10)^2 $, leading to $ x = 10 $ as the solution. This method works universally for any rational expression, regardless of its degree or complexity.",
+    "source_problem_id": "math_66",
+    "success": true,
+    "created_at": "2025-10-13T16:53:25.347636",
+    "embedding": null
+  },
+  {
+    "title": "Factor Denominator for Root Identification",
+    "description": "Factoring the denominator allows for identifying all roots, including repeated ones, which are critical for determining where the expression is undefined.",
+    "content": "Factoring the denominator is essential to locate all values of x that make the denominator zero. For instance, $ x^2 - 20x + 100 $ factors into $ (x - 10)^2 $, revealing that x = 10 is a repeated root. Even if a root is repeated, the expression remains undefined at that value because the denominator is zero. This strategy is applicable to any polynomial denominator, whether it factors neatly or requires synthetic division.",
+    "source_problem_id": "math_66",
+    "success": true,
+    "created_at": "2025-10-13T16:53:25.347653",
+    "embedding": null
+  },
+  {
+    "title": "Check Numerator for Zero at Identified Roots",
+    "description": "If the numerator is zero at the same x-values where the denominator is zero, the expression is undefined (but indeterminate). Otherwise, the expression is undefined at those points.",
+    "content": "After identifying the denominator's zeros, it is crucial to check if the numerator is also zero at those points. In the given problem, the numerator $ 2x^3 + 3 $ is not zero at x = 10, so the expression is undefined there. However, if the numerator were zero at the same x-values, further analysis (e.g., simplifying the expression or evaluating limits) would be required. This step ensures that the undefined nature of the expression is correctly determined.",
+    "source_problem_id": "math_66",
+    "success": true,
+    "created_at": "2025-10-13T16:53:25.347660",
+    "embedding": null
+  },
+  {
+    "title": "Inverse Function Definition Strategy",
+    "description": "Recognize that if $ f^{-1}(x) = 4 $, then $ f(4) = x $ by the definition of inverse functions.",
+    "content": "To solve $ f^{-1}(x) = 4 $, apply the inverse function property: $ f(4) = x $. This means the output of the inverse function (4) corresponds to the input of the original function. Thus, compute $ f(4) $ directly using the given function $ f(x) = 3x^3 + 2 $.",
+    "source_problem_id": "math_67",
+    "success": true,
+    "created_at": "2025-10-13T16:53:37.465069",
+    "embedding": null
+  },
+  {
+    "title": "Substitution and Evaluation Strategy",
+    "description": "Substitute the known value into the original function to find the corresponding output.",
+    "content": "When $ f^{-1}(x) = 4 $, $ x = f(4) $. Substitute $ x = 4 $ into $ f(x) = 3x^3 + 2 $, compute $ 4^3 = 64 $, then $ 3 \\times 64 + 2 = 194 $. This step directly computes the value of $ x $ that satisfies the inverse function condition.",
+    "source_problem_id": "math_67",
+    "success": true,
+    "created_at": "2025-10-13T16:53:37.465083",
+    "embedding": null
+  },
+  {
+    "title": "Arithmetic Computation Strategy",
+    "description": "Perform step-by-step calculations to evaluate the function at the given input.",
+    "content": "Break down the computation of $ f(4) $: $ 4^3 = 64 $, $ 3 \\times 64 = 192 $, and $ 192 + 2 = 194 $. This method ensures accuracy by isolating each operation (exponentiation, multiplication, addition) in sequence. The strategy is transferable to similar problems requiring evaluation of functions at specific inputs.",
+    "source_problem_id": "math_67",
+    "success": true,
+    "created_at": "2025-10-13T16:53:37.465089",
+    "embedding": null
+  },
+  {
+    "title": "**Definition-Based Strategy**",
+    "description": "Recognize the floor function as the greatest integer less than or equal to a number.",
+    "content": "Apply the definition directly by identifying the integer part of the number. For \u03c0 \u2248 3.14159, the integer part is 3 because 3 \u2264 \u03c0 < 4. This strategy works for any real number by focusing on its integer component.",
+    "source_problem_id": "math_69",
+    "success": true,
+    "created_at": "2025-10-13T16:53:57.501308",
+    "embedding": null
+  },
+  {
+    "title": "**Approximation Strategy**",
+    "description": "Use known approximations or bounds to determine the floor value.",
+    "content": "For \u03c0 \u2248 3.14159, recognize that \u03c0 is between 3 and 4. Since the decimal part (0.14159) is less than 1, the floor is 3. This strategy is useful when exact value is not known but bounds are accessible.",
+    "source_problem_id": "math_69",
+    "success": true,
+    "created_at": "2025-10-13T16:53:57.501324",
+    "embedding": null
+  },
+  {
+    "title": "**Decimal Expansion Strategy**",
+    "description": "Analyze the decimal digits to identify the integer part.",
+    "content": "Examine the decimal expansion of the number. For \u03c0 = 3.14159..., the first digit after the decimal is 1, which is less than 10. Thus, the integer part is 3. This strategy is applicable when the decimal digits provide clear clues about the integer component.  \n\n**Why These Work**: These strategies are generalizable because they rely on foundational concepts (definition, bounds, and decimal structure) that apply to any real number. They emphasize breaking down the problem into manageable parts (e.g., integer vs. fractional components) and leveraging known properties of numbers like \u03c0.",
+    "source_problem_id": "math_69",
+    "success": true,
+    "created_at": "2025-10-13T16:53:57.501331",
+    "embedding": null
+  },
+  {
+    "title": "Base Conversion Strategy**  \n**",
+    "description": "** Convert all terms to the same base to simplify exponent operations.  \n**",
+    "content": "** When solving equations with exponents, express all terms using the same base (e.g., 3 in this case) to combine like terms and apply exponent rules. This simplifies the equation and allows for direct comparison of exponents.",
+    "source_problem_id": "math_70",
+    "success": true,
+    "created_at": "2025-10-13T16:54:10.870091",
+    "embedding": null
+  },
+  {
+    "title": "Radical Simplification Strategy**  \n**",
+    "description": "** Simplify radicals by converting them into exponents and applying exponent rules.  \n**",
+    "content": "** For expressions involving square roots (e.g., \u221a(9\u00b79^t)), rewrite the radicand as a product of powers of the base and then simplify the root by dividing the exponent by 2. This reduces the problem to a simpler exponential equation.",
+    "source_problem_id": "math_70",
+    "success": true,
+    "created_at": "2025-10-13T16:54:10.870108",
+    "embedding": null
+  },
+  {
+    "title": "Exponential Equation Solving Strategy**  \n**",
+    "description": "** Solve exponential equations by equating exponents when bases are the same.  \n**",
+    "content": "** If the bases of exponential terms are identical, set the exponents equal to each other and solve for the variable. This leverages the property that if a^b = a^c, then b = c, which is critical for solving equations like 2\u00b73^(t+1) = 18.",
+    "source_problem_id": "math_70",
+    "success": true,
+    "created_at": "2025-10-13T16:54:10.870113",
+    "embedding": null
+  },
+  {
+    "title": "Ceiling Function Range Analysis",
+    "description": "Strategy involves defining n = ceil(x) and using inequalities to narrow down possible integer values of n that satisfy the equation.",
+    "content": "When solving $\\lceil x \\rceil \\cdot x = 135$, set $n = \\lceil x \\rceil$ which implies $n - 1 < x \\leq n$. Substitute $x = \\frac{135}{n}$ into the inequality $n - 1 < \\frac{135}{n} \\leq n$, leading to solving $n^2 \\geq 135$ and $n^2 - n - 135 < 0$. This bounds $n$ to integers between 12 and 12.13, confirming $n = 12$.",
+    "source_problem_id": "math_72",
+    "success": true,
+    "created_at": "2025-10-13T16:54:38.287849",
+    "embedding": null
+  },
+  {
+    "title": "Inequality Solving for Integer Constraints",
+    "description": "Solves the system of inequalities derived from the ceiling function and the equation to find valid integer values of $n$.",
+    "content": "By solving $n^2 \\geq 135$ (from $135/n \\leq n$) and $n^2 - n - 135 < 0$ (from $n - 1 < 135/n$), the integer $n = 12$ is identified as the only value satisfying both conditions. This method is generalizable to problems where a variable is constrained by ceiling functions and algebraic equations.",
+    "source_problem_id": "math_72",
+    "success": true,
+    "created_at": "2025-10-13T16:54:38.287868",
+    "embedding": null
+  },
+  {
+    "title": "Algebraic Substitution and Verification",
+    "description": "Substitutes $x = 135/n$ into the original equation and verifies the solution by checking the ceiling function and the product.",
+    "content": "Once $n = 12$ is determined, compute $x = 135/12 = 11.25$. Verify that $\\lceil 11.25 \\rceil = 12$ and $12 \\cdot 11.25 = 135$, confirming the solution. This strategy highlights the importance of substitution and verification in solving equations involving ceiling functions.",
+    "source_problem_id": "math_72",
+    "success": true,
+    "created_at": "2025-10-13T16:54:38.287876",
+    "embedding": null
+  },
+  {
+    "title": "Completing the Square Strategy",
+    "description": "Completing the square is a standard method for solving quadratic equations by transforming the equation into a perfect square trinomial, which simplifies solving for $ x $.",
+    "content": "When solving $ x^2 + 12x = 73 $, the coefficient of $ x $ is 12. Half of 12 is 6, and squaring it gives 36. Adding 36 to both sides results in $ (x + 6)^2 = 109 $. This allows the equation to be solved by taking the square root of both sides, leading to the solution $ x = -6 \\pm \\sqrt{109} $. This method is generalizable for any quadratic equation of the form $ x^2 + bx + c = 0 $, where completing the square can be applied to form a perfect square.",
+    "source_problem_id": "math_73",
+    "success": true,
+    "created_at": "2025-10-13T16:54:55.108788",
+    "embedding": null
+  },
+  {
+    "title": "Identifying the Radical and Constant Terms",
+    "description": "After completing the square, the solution is expressed in the form $ \\sqrt{a} - b $, where $ a $ is the square of the radical term and $ b $ is the constant term.",
+    "content": "In the equation $ (x + 6)^2 = 109 $, the positive solution is $ x = -6 + \\sqrt{109} $, which can be rewritten as $ \\sqrt{109} - 6 $. Here, $ a = 109 $ and $ b = 6 $, so the sum $ a + b = 115 $. This strategy is generalizable when the solution of a quadratic equation is expressed in the form $ \\sqrt{a} - b $, where $ a $ is the square of the radical term and $ b $ is the constant term.",
+    "source_problem_id": "math_73",
+    "success": true,
+    "created_at": "2025-10-13T16:54:55.108802",
+    "embedding": null
+  },
+  {
+    "title": "Generalizing the Solution Form",
+    "description": "The solution to a quadratic equation in the form $ x^2 + bx = c $ can be expressed as $ \\sqrt{a} - b $, where $ a $ is derived from completing the square and $ b $ is the constant term from the original equation.",
+    "content": "By completing the square, the equation $ x^2 + 12x = 73 $ becomes $ (x + 6)^2 = 109 $. The positive solution is $ x = -6 + \\sqrt{109} $, which matches the form $ \\sqrt{a} - b $ with $ a = 109 $ and $ b = 6 $. This strategy is generalizable to other quadratic equations where the solution can be expressed in the required form by identifying the square root term and the constant term from the completed square.",
+    "source_problem_id": "math_73",
+    "success": true,
+    "created_at": "2025-10-13T16:54:55.108807",
+    "embedding": null
+  },
+  {
+    "title": "Isolate the Unknown Polynomial**  \n**",
+    "description": "** Subtract the known polynomial from both sides to isolate $ h(x) $.  \n**",
+    "content": "** When solving for $ h(x) $ in an equation like $ 9x^3 - 3x + 1 + h(x) = 3x^2 - 5x + 3 $, subtract the known polynomial $ 9x^3 - 3x + 1 $ from both sides to isolate $ h(x) $. This strategy is generalizable to any equation where a missing polynomial is added to another, allowing for systematic simplification.",
+    "source_problem_id": "math_74",
+    "success": true,
+    "created_at": "2025-10-13T16:55:05.271319",
+    "embedding": null
+  },
+  {
+    "title": "Distribute the Negative Sign**  \n**",
+    "description": "** Apply the distributive property to change the sign of each term in the subtracted polynomial.  \n**",
+    "content": "** When subtracting a polynomial, distribute the negative sign to each term, effectively flipping their signs. This step is critical for correctly forming the opposite polynomial and is transferable to any polynomial subtraction problem.",
+    "source_problem_id": "math_74",
+    "success": true,
+    "created_at": "2025-10-13T16:55:05.271332",
+    "embedding": null
+  },
+  {
+    "title": "Combine Like Terms**  \n**",
+    "description": "** Simplify the resulting polynomial by combining like terms (terms with the same degree).  \n**",
+    "content": "** After distributing the negative sign, group and add like terms (e.g., $ -9x^3 $, $ 3x^2 $, $ -2x $, and $ 2 $) to present the polynomial in descending order of degree. This strategy is essential for organizing the final answer and ensuring it meets the problem\u2019s requirements.",
+    "source_problem_id": "math_74",
+    "success": true,
+    "created_at": "2025-10-13T16:55:05.271340",
+    "embedding": null
+  },
+  {
+    "title": "SIGN BASED RULE APPLICATION",
+    "description": "The core strategy involves checking the sign of the current input to determine which piecewise rule to apply. This is critical because the function's definition changes based on whether the input is non-negative or negative.",
+    "content": "When computing $ f(x) $, evaluate the sign of the current value. If $ x \\geq 0 $, apply $ -x^2 $; if $ x < 0 $, apply $ x + 8 $. This ensures the correct rule is selected at each step, regardless of the intermediate values.",
+    "source_problem_id": "math_75",
+    "success": true,
+    "created_at": "2025-10-13T16:55:19.084872",
+    "embedding": null
+  },
+  {
+    "title": "PATTERNS IN INTERMEDIATE VALUES",
+    "description": "Recognizing patterns in intermediate results helps simplify computations, especially when negative numbers are involved. For example, applying $ x + 8 $ to a negative number can yield a positive value, which then triggers the $ -x^2 $ rule.",
+    "content": "After applying the function a few times, observe how operations like squaring and negation interact. For instance, a negative number may become positive when added to 8, and then squaring it negates the result again. This pattern can be generalized to predict outcomes in similar problems.",
+    "source_problem_id": "math_75",
+    "success": true,
+    "created_at": "2025-10-13T16:55:19.084887",
+    "embedding": null
+  },
+  {
+    "title": "ITERATIVE COMPUTATION WITH TRACKING",
+    "description": "Each application of the function must be computed step-by-step, with careful tracking of intermediate results. This ensures that each subsequent step depends on the correct value from the previous computation.",
+    "content": "Apply the function iteratively, recording each result and its sign. This method ensures that the rules are applied correctly at each step, even when the input values alternate between positive and negative. Tracking intermediate results is essential for accuracy in complex sequences.",
+    "source_problem_id": "math_75",
+    "success": true,
+    "created_at": "2025-10-13T16:55:19.084892",
+    "embedding": null
+  },
+  {
+    "title": "Function Composition and Substitution Strategy**  \n**",
+    "description": "** Substitute the inner function into the outer function and simplify algebraically.  \n**",
+    "content": "** When solving problems involving function composition (e.g., $ p(q(4)) $), the key step is to evaluate the inner function first and then substitute its result into the outer function. This ensures that the operations are applied in the correct order. For example, in this problem, $ q(4) = 3(4) - b = 12 - b $, and then $ p(12 - b) = 2(12 - b) - 7 = 17 - 2b $. This strategy is generalizable to any function composition problem where you need to evaluate a nested function and simplify the expression.",
+    "source_problem_id": "math_76",
+    "success": true,
+    "created_at": "2025-10-13T16:55:30.161578",
+    "embedding": null
+  },
+  {
+    "title": "Solving Linear Equations Strategy**  \n**",
+    "description": "** Solve linear equations by isolating the variable step-by-step.  \n**",
+    "content": "** After simplifying the composed function (e.g., $ 17 - 2b = 7 $), the next step is to isolate the variable $ b $. This involves performing inverse operations (e.g., subtracting 17 from both sides and dividing by -2). This strategy is applicable to any equation where a variable is isolated after algebraic manipulation, such as solving for a parameter in a function or equation.",
+    "source_problem_id": "math_76",
+    "success": true,
+    "created_at": "2025-10-13T16:55:30.161592",
+    "embedding": null
+  },
+  {
+    "title": "Careful Arithmetic and Order of Operations Strategy**  \n**",
+    "description": "** Perform precise arithmetic and maintain order of operations to avoid errors.  \n**",
+    "content": "** It is critical to handle coefficients and constants correctly during substitution and simplification. For instance, multiplying 2 by $ 12 - b $ and then subtracting 7 requires careful attention to parentheses and signs. This strategy is generalizable to problems where algebraic simplification involves multiple steps, ensuring that each operation is applied accurately to avoid computational mistakes.",
+    "source_problem_id": "math_76",
+    "success": true,
+    "created_at": "2025-10-13T16:55:30.161599",
+    "embedding": null
+  },
+  {
+    "title": "**Square Root of Area Ratio Strategy**",
+    "description": "The ratio of side lengths of two squares is the square root of their area ratio. This is because area is proportional to the square of the side length.",
+    "content": "When given the ratio of areas, take the square root of the ratio to obtain the ratio of side lengths. For example, if the area ratio is 32/63, the side length ratio is \u221a(32/63). This step is foundational for simplifying radicals and ensuring the correct relationship between areas and sides.",
+    "source_problem_id": "math_77",
+    "success": true,
+    "created_at": "2025-10-13T16:55:44.877910",
+    "embedding": null
+  },
+  {
+    "title": "**Simplify Radicals by Factoring**",
+    "description": "Factor the numerator and denominator into their prime components to identify and cancel out perfect squares, simplifying the radical expression.",
+    "content": "Break down the numbers in the square root into their prime factors. For instance, \u221a(32/63) becomes \u221a(16\u00d72/9\u00d77) = (4\u221a2)/(3\u221a7). Then, simplify by canceling perfect squares (16 and 9) and leaving the remaining radicals. This step ensures the expression is simplified as much as possible before rationalizing.",
+    "source_problem_id": "math_77",
+    "success": true,
+    "created_at": "2025-10-13T16:55:44.877931",
+    "embedding": null
+  },
+  {
+    "title": "**Rationalize the Denominator**",
+    "description": "Multiply numerator and denominator by the conjugate or necessary radical to eliminate any radicals from the denominator, ensuring the expression is in its simplest form.",
+    "content": "After simplifying the radical, rationalize the denominator by multiplying numerator and denominator by the same radical. For example, \u221a(32/63) becomes (4\u221a2)/(3\u221a7), which is then multiplied by \u221a7/\u221a7 to get (4\u221a14)/21. This step ensures the denominator is a rational number, adhering to standard simplification rules.",
+    "source_problem_id": "math_77",
+    "success": true,
+    "created_at": "2025-10-13T16:55:44.877941",
+    "embedding": null
+  },
+  {
+    "title": "Variable Setup and Percentage Application",
+    "description": "This strategy involves defining variables for the number of each type of shot (three-point and two-point) and applying the given success rates to calculate successful shots. It then multiplies these successful shots by their respective point values to determine the total points.",
+    "content": "By letting $ x $ represent the number of three-point shots, the number of two-point shots is $ 30 - x $. The successful three-pointers are $ 0.2x $ and two-pointers are $ 0.3(30 - x) $. The total points are calculated as $ 3(0.2x) + 2(0.3(30 - x)) $, which simplifies to $ 18 $.",
+    "source_problem_id": "math_78",
+    "success": true,
+    "created_at": "2025-10-13T16:56:01.081436",
+    "embedding": null
+  },
+  {
+    "title": "Simplification of Terms",
+    "description": "This strategy focuses on simplifying the expression for total points by recognizing that the terms involving $ x $ cancel out, leading to a constant result. It leverages the fact that $ 0.2 \\times 3 = 0.6 $ and $ 0.3 \\times 2 = 0.6 $, which are the same for both types of shots.",
+    "content": "The expression $ 0.6x + 0.6(30 - x) $ simplifies to $ 18 $ because $ 0.6x - 0.6x = 0 $. This shows that the total points are independent of the number of three-point shots attempted, as the contributions from both types of shots balance out.",
+    "source_problem_id": "math_78",
+    "success": true,
+    "created_at": "2025-10-13T16:56:01.081452",
+    "embedding": null
+  },
+  {
+    "title": "Generalizable Percentage and Point Value Analysis",
+    "description": "This strategy emphasizes the use of percentages and point values to compute total points, recognizing that the total points can be derived by multiplying the success rate by the point value and the total number of shots. It applies to similar problems where different percentages and point values are given.",
+    "content": "The total points are calculated by $ 3 \\times 0.2 \\times 30 + 2 \\times 0.3 \\times 30 = 18 $. This approach is generalizable to problems where you need to compute total points based on success rates and point values for different types of shots.",
+    "source_problem_id": "math_78",
+    "success": true,
+    "created_at": "2025-10-13T16:56:01.081459",
+    "embedding": null
+  },
+  {
+    "title": "Factor and Simplify",
+    "description": "Factor the numerator and denominator to cancel common terms, ensuring the domain restrictions are considered.",
+    "content": "When solving rational equations, factor the numerator and denominator to identify common factors. Cancel them out, provided they are not zero. This simplifies the equation and allows further solving. The key is to recognize when and how to factor to eliminate terms and avoid division by zero.",
+    "source_problem_id": "math_79",
+    "success": true,
+    "created_at": "2025-10-13T16:56:22.990769",
+    "embedding": null
+  },
+  {
+    "title": "Eliminate Denominators",
+    "description": "Multiply both sides by the least common denominator (LCD) to convert the equation into a polynomial equation.",
+    "content": "Multiply both sides by the LCD to eliminate denominators, which simplifies the equation to a polynomial. This step is crucial for solving the equation algebraically. The LCD is determined by the denominators in the original equation, and multiplying both sides ensures no fractions remain.",
+    "source_problem_id": "math_79",
+    "success": true,
+    "created_at": "2025-10-13T16:56:22.990784",
+    "embedding": null
+  },
+  {
+    "title": "Solve and Check Solutions",
+    "description": "Solve the resulting polynomial equation and verify solutions by substituting back into the original equation to ensure they do not make any denominators zero.",
+    "content": "After solving, check each solution against the original equation to ensure they are valid. This step prevents extraneous solutions introduced during algebraic manipulations. It also ensures that the solutions do not violate domain restrictions (e.g., denominators cannot be zero).",
+    "source_problem_id": "math_79",
+    "success": true,
+    "created_at": "2025-10-13T16:56:22.990789",
+    "embedding": null
+  },
+  {
+    "title": "Factor by Finding Pairs",
+    "description": "Identify two numbers that multiply to the constant term and add up to the coefficient of the x-term.",
+    "content": "To factor a quadratic expression like $x^2 - 16x + 60$, find two numbers that multiply to the constant term (60) and add up to the coefficient of the x-term (-16). This method works by listing all factor pairs of the constant term and checking which pair satisfies the sum condition. This strategy is generalizable for any quadratic expression where the coefficient of $x$ is known and the constant term is known.",
+    "source_problem_id": "math_80",
+    "success": true,
+    "created_at": "2025-10-13T16:56:40.247746",
+    "embedding": null
+  },
+  {
+    "title": "Use the Quadratic Formula to Find Roots",
+    "description": "Solve the quadratic equation to find the roots, which directly give the values of $a$ and $b$.",
+    "content": "For the quadratic $x^2 - 16x + 60$, the roots can be found using the quadratic formula: $\\frac{16 \\pm \\sqrt{(-16)^2 - 4(1)(60)}}{2}$. This simplifies to $10$ and $6$, which are the values of $a$ and $b$. This strategy is generalizable for any quadratic equation where the roots are integers and can be solved algebraically.",
+    "source_problem_id": "math_80",
+    "success": true,
+    "created_at": "2025-10-13T16:56:40.247761",
+    "embedding": null
+  },
+  {
+    "title": "Solve the System of Equations",
+    "description": "Set up and solve the system of equations $a + b = 16$ and $ab = 60$ to find $a$ and $b$.",
+    "content": "By setting up the equations $a + b = 16$ and $ab = 60$, solve for $a$ and $b$ using substitution or algebraic methods. This approach is generalizable for any quadratic expression where the sum and product of roots are known, allowing for the determination of the roots and subsequent factorization.",
+    "source_problem_id": "math_80",
+    "success": true,
+    "created_at": "2025-10-13T16:56:40.247766",
+    "embedding": null
+  },
+  {
+    "title": "Convert All Terms to a Common Base**  \n**",
+    "description": "** Express all terms with the same base to simplify the equation and eliminate variable exponents.  \n**",
+    "content": "** By rewriting 4\u207f as 2\u00b2\u207f and 64\u207f\u207b\u00b3\u2076 as 2\u2076\u207f\u207b\u00b3\u2076, the equation becomes a simple exponential equation with identical bases, allowing exponents to be directly compared. This strategy is generalizable for solving equations with exponential terms by reducing complexity.",
+    "source_problem_id": "math_81",
+    "success": true,
+    "created_at": "2025-10-13T16:56:51.316602",
+    "embedding": null
+  },
+  {
+    "title": "Equate Exponents When Bases Match**  \n**",
+    "description": "** If two expressions with the same base are equal, their exponents must be equal. This property is critical for solving exponential equations.  \n**",
+    "content": "** After converting all terms to base 2, the equation 2\u00b3\u207f = 2\u2076\u207f\u207b\u00b3\u2076 becomes 3n = 6(n - 36). This step is transferable to similar problems where exponential expressions are equated, such as solving 5\u02e3 = 25\u02b8 by converting to base 5 or 2.",
+    "source_problem_id": "math_81",
+    "success": true,
+    "created_at": "2025-10-13T16:56:51.316624",
+    "embedding": null
+  },
+  {
+    "title": "Solve Linear Equations for the Variable**  \n**",
+    "description": "** Algebraic manipulation of the simplified equation to isolate the variable (n) is essential for solving exponential equations.  \n**",
+    "content": "** The final step involves expanding and simplifying 3n = 6n - 216 to 3n = 216, leading to n = 72. This strategy is applicable to any linear equation, making it a generalizable method for solving problems with variable exponents or coefficients.",
+    "source_problem_id": "math_81",
+    "success": true,
+    "created_at": "2025-10-13T16:56:51.316630",
+    "embedding": null
+  },
+  {
+    "title": "Check the discriminant calculation",
+    "description": "When solving quadratic equations, it's crucial to verify the discriminant and ensure that the square root is correctly calculated. In this case, the discriminant was 10404, which is 102\u00b2, so the calculation was correct.",
+    "content": "The user correctly calculated the discriminant as 10404, which is 102 squared. However, it's important to confirm that the square root is indeed 102, which it is. This step was correct.",
+    "source_problem_id": "math_82",
+    "success": false,
+    "created_at": "2025-10-13T16:57:16.787927",
+    "embedding": null
+  },
+  {
+    "title": "Identify Undefined Points via Denominator Zero",
+    "description": "A rational expression is undefined when its denominator equals zero. This principle is foundational in algebra for determining where a function is not defined.",
+    "content": "To determine when the expression $\\frac{a+3}{a^2 - 4}$ is undefined, we focus on the denominator $a^2 - 4$. The expression is undefined when the denominator is zero, which occurs when $a^2 - 4 = 0$. Solving this equation gives the values of $a$ that make the expression undefined.",
+    "source_problem_id": "math_84",
+    "success": true,
+    "created_at": "2025-10-13T16:57:43.778379",
+    "embedding": null
+  },
+  {
+    "title": "Factor the Denominator to Find Zeros",
+    "description": "Factoring the denominator allows us to identify the values of $a$ that make the denominator zero, which are the points where the expression is undefined.",
+    "content": "When the denominator $a^2 - 4$ is factored as $(a - 2)(a + 2)$, we can find the roots of the equation $(a - 2)(a + 2) = 0$. These roots are $a = 2$ and $a = -2$, which are the values that make the denominator zero and hence the expression undefined.",
+    "source_problem_id": "math_84",
+    "success": true,
+    "created_at": "2025-10-13T16:57:43.778393",
+    "embedding": null
+  },
+  {
+    "title": "Solve the Equation to Find Roots",
+    "description": "Solving the equation derived from setting the denominator equal to zero provides the specific values of $a$ that make the expression undefined.",
+    "content": "By solving $(a - 2)(a + 2) = 0$, we find the solutions $a = 2$ and $a = -2$. These are the only real values that make the denominator zero, thus making the original expression undefined. This method is generalizable for any rational expression where the denominator is a polynomial.",
+    "source_problem_id": "math_84",
+    "success": true,
+    "created_at": "2025-10-13T16:57:43.778399",
+    "embedding": null
+  },
+  {
+    "title": "**Setting Up the Equation**",
+    "description": "**Identify the target value and substitute into the given function to form a quadratic equation.**",
+    "content": "When solving for when a projectile reaches a specific height, substitute the target height into the equation and rearrange it into standard quadratic form (ax\u00b2 + bx + c = 0). This step is critical for applying the quadratic formula or other methods.",
+    "source_problem_id": "math_87",
+    "success": true,
+    "created_at": "2025-10-13T16:58:29.529861",
+    "embedding": null
+  },
+  {
+    "title": "**Rearranging to Standard Form**",
+    "description": "**Transform the equation into ax\u00b2 + bx + c = 0 to apply the quadratic formula.**",
+    "content": "Rearranging the equation ensures the quadratic formula can be applied directly. This involves moving all terms to one side and simplifying, which is a generalizable technique for solving quadratic equations.",
+    "source_problem_id": "math_87",
+    "success": true,
+    "created_at": "2025-10-13T16:58:29.529876",
+    "embedding": null
+  },
+  {
+    "title": "**Applying the Quadratic Formula**",
+    "description": "**Use the quadratic formula to solve for the variable, considering the discriminant and selecting the appropriate root.**",
+    "content": "The quadratic formula (t = [-b \u00b1 \u221a(b\u00b2 - 4ac)] / 2a) is the standard method for solving quadratic equations. Calculating the discriminant and selecting the smaller positive root (for the first time the projectile reaches the height) is essential for contextual accuracy.",
+    "source_problem_id": "math_87",
+    "success": true,
+    "created_at": "2025-10-13T16:58:29.529882",
+    "embedding": null
+  },
+  {
+    "title": "Completing the Square Method",
+    "description": "The core strategy involves identifying the coefficient of $ x $, halving it, squaring it, and adjusting the constant term to complete the square.",
+    "content": "To rewrite a quadratic in the form $ (x + b)^2 + c $, first identify the coefficient of $ x $ (here, -20). Halve this coefficient to get -10, then square it to get 100. Add and subtract this squared value to maintain the equality of the quadratic expression. This step ensures the expression can be rewritten as a perfect square trinomial plus a constant.",
+    "source_problem_id": "math_88",
+    "success": true,
+    "created_at": "2025-10-13T16:58:44.798469",
+    "embedding": null
+  },
+  {
+    "title": "Algebraic Manipulation for Constant Adjustment",
+    "description": "After completing the square, the constant term is adjusted by adding and subtracting the squared value to maintain the equality of the quadratic.",
+    "content": "Once the squared term is added and subtracted, the constant term in the original expression is adjusted accordingly. This step is critical to ensure the rewritten expression remains equivalent to the original quadratic.",
+    "source_problem_id": "math_88",
+    "success": true,
+    "created_at": "2025-10-13T16:58:44.798483",
+    "embedding": null
+  },
+  {
+    "title": "Simplifying to Identify $ b $ and $ c $",
+    "description": "After completing the square, the expression is rewritten in the form $ (x + b)^2 + c $, where $ b $ and $ c $ are derived from the coefficients of the squared term and the adjusted constant.",
+    "content": "The final step involves identifying $ b $ as the coefficient of $ x $ in the completed square term (here, -10) and $ c $ as the adjusted constant term (here, -64). Summing $ b $ and $ c $ gives the final result. This strategy is generalizable to any quadratic expression that can be rewritten in vertex form.",
+    "source_problem_id": "math_88",
+    "success": true,
+    "created_at": "2025-10-13T16:58:44.798490",
+    "embedding": null
+  },
+  {
+    "title": "Finding the Inverse Function**  \n**",
+    "description": "** To find the inverse of a function, switch the roles of x and y and solve for y.  \n**",
+    "content": "** Start with $ y = 3x - 8 $. Swap $ x $ and $ y $ to get $ x = 3y - 8 $, then solve for $ y $ to obtain $ y = \\frac{x + 8}{3} $. This gives the inverse function $ f^{-1}(x) = \\frac{x + 8}{3} $.",
+    "source_problem_id": "math_90",
+    "success": true,
+    "created_at": "2025-10-13T16:59:23.102219",
+    "embedding": null
+  },
+  {
+    "title": "Solving the Equation $ f(x) = f^{-1}(x) $**  \n**",
+    "description": "** Set the function equal to its inverse and solve the resulting equation algebraically.  \n**",
+    "content": "** Substitute $ f(x) = 3x - 8 $ and $ f^{-1}(x) = \\frac{x + 8}{3} $ into $ 3x - 8 = \\frac{x + 8}{3} $. Multiply both sides by 3 to eliminate the denominator, simplify, and solve for $ x $:  \n$$\n9x - 24 = x + 8 \\implies 8x = 32 \\implies x = 4.\n$$",
+    "source_problem_id": "math_90",
+    "success": true,
+    "created_at": "2025-10-13T16:59:23.102234",
+    "embedding": null
+  },
+  {
+    "title": "Using Functional Properties of Inverses**  \n**",
+    "description": "** Recognize that $ f(x) = f^{-1}(x) $ implies $ f(f(x)) = x $, a key property of inverse functions.  \n**",
+    "content": "** If $ f(x) = f^{-1}(x) $, applying $ f $ to both sides gives $ f(f(x)) = f(f^{-1}(x)) = x $. Thus, solving $ f(f(x)) = x $ leads to the same equation as before. This approach leverages the relationship between a function and its inverse.",
+    "source_problem_id": "math_90",
+    "success": true,
+    "created_at": "2025-10-13T16:59:23.102238",
+    "embedding": null
+  },
+  {
+    "title": "**Segment Breakdown Strategy**",
+    "description": "When a path requires a stop at a point, divide the journey into two straight-line segments and sum their distances.",
+    "content": "The total distance is the sum of the distances from the start to the stop and from the stop to the end. This method works because the distance formula is additive for straight lines, allowing for efficient calculation of total path length.",
+    "source_problem_id": "math_92",
+    "success": true,
+    "created_at": "2025-10-13T17:00:05.165841",
+    "embedding": null
+  },
+  {
+    "title": "**Distance Formula Application**",
+    "description": "Use the distance formula to calculate the length of each segment between two points.",
+    "content": "For any two points, compute the differences in x and y coordinates, square them, add, and take the square root. This formula is universally applicable for calculating straight-line distances and is critical for solving problems involving multiple stops or paths.",
+    "source_problem_id": "math_92",
+    "success": true,
+    "created_at": "2025-10-13T17:00:05.165860",
+    "embedding": null
+  },
+  {
+    "title": "**Symmetry and Equal Segments**",
+    "description": "Recognize that symmetric points or equal differences in coordinates can result in equal segment lengths, simplifying calculations.",
+    "content": "If the path involves symmetric points or points with equal x and y differences, the segments may have equal lengths, reducing the total distance. This strategy is useful when the problem\u2019s geometry allows for such simplifications, enabling efficient computation.",
+    "source_problem_id": "math_92",
+    "success": true,
+    "created_at": "2025-10-13T17:00:05.165872",
+    "embedding": null
+  },
+  {
+    "title": "** **Forgetting to Combine Like Terms**  \n**",
+    "description": "** The user only considered the highest degree term (x\u00b9\u00b9) and neglected to combine all other like terms (e.g., x\u2079, x\u2078, x\u2077, x\u00b3, x, and the constant).  \n**",
+    "content": "** Always ensure all terms are identified and grouped by their exponents before combining coefficients. Skip combining terms unless explicitly instructed, as this leads to incomplete simplifications.",
+    "source_problem_id": "math_93",
+    "success": false,
+    "created_at": "2025-10-13T17:00:16.442201",
+    "embedding": null
+  },
+  {
+    "title": "** **Incorrect Coefficient Addition**  \n**",
+    "description": "** The user may have miscalculated coefficients for like terms (e.g., 9x\u2079 + x\u2079 = 10x\u2079) or missed adding terms like 4x\u2077 + 2x\u2077 = 6x\u2077.  \n**",
+    "content": "** Double-check coefficients for each exponent and verify arithmetic operations (e.g., addition, subtraction) to avoid errors in combining terms.",
+    "source_problem_id": "math_93",
+    "success": false,
+    "created_at": "2025-10-13T17:00:16.442216",
+    "embedding": null
+  },
+  {
+    "title": "** **Failure to Arrange Terms in Order**  \n**",
+    "description": "** The user omitted arranging terms in decreasing order of exponents, leaving the answer as x\u00b9\u00b9 without proper ordering.  \n**",
+    "content": "** Always list terms from highest degree to lowest after combining like terms. This ensures clarity and adherence to the problem\u2019s requirements.",
+    "source_problem_id": "math_93",
+    "success": false,
+    "created_at": "2025-10-13T17:00:16.442223",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Perfect Square Trinomial**  \n**",
+    "description": "** Identify the expression as a perfect square trinomial and simplify by combining terms first.  \n**",
+    "content": "** When the expression is of the form $ (a + b)^2 = a^2 + 2ab + b^2 $, recognizing this structure allows for direct simplification without expanding all terms. In this problem, the expression $ (x+1)^2 + 2(x+1)(3-x) + (3-x)^2 $ matches the perfect square trinomial $ (a + b)^2 $ where $ a = x+1 $ and $ b = 3 - x $. Combining $ a + b = 4 $ directly yields $ 4^2 = 16 $, avoiding unnecessary expansion.",
+    "source_problem_id": "math_94",
+    "success": true,
+    "created_at": "2025-10-13T17:00:31.637054",
+    "embedding": null
+  },
+  {
+    "title": "Substitution to Simplify**  \n**",
+    "description": "** Replace parts of the expression with variables to reduce complexity and simplify calculations.  \n**",
+    "content": "** By substituting $ a = x + 1 $ and $ b = 3 - x $, the expression becomes $ a^2 + 2ab + b^2 = (a + b)^2 $. This substitution simplifies the problem by reducing the number of terms to handle, as $ a + b = 4 $, leading to the immediate result $ 16 $. This strategy is generalizable to problems where parts of the expression can be grouped or replaced to form recognizable patterns.",
+    "source_problem_id": "math_94",
+    "success": true,
+    "created_at": "2025-10-13T17:00:31.637069",
+    "embedding": null
+  },
+  {
+    "title": "Systematic Expansion and Combining Like Terms**  \n**",
+    "description": "** Expand each term individually and combine like terms systematically to simplify the expression.  \n**",
+    "content": "** Expanding each term (e.g., $ (x+1)^2 $, $ 2(x+1)(3-x) $, $ (3-x)^2 $) and then combining like terms (e.g., $ x^2 - 2x^2 + x^2 $) is a reliable method for simplifying quadratic expressions. This approach is particularly effective when the expression is complex but can be broken down into manageable parts. It is generalizable to problems requiring algebraic manipulation of polynomials.",
+    "source_problem_id": "math_94",
+    "success": true,
+    "created_at": "2025-10-13T17:00:31.637076",
+    "embedding": null
+  },
+  {
+    "title": "**Substitution and Equation Reduction**",
+    "description": "Solves systems of equations by substituting variables and simplifying relationships.",
+    "content": "The strategy involves assigning variables to each day\u2019s distance and using substitution to reduce the number of variables. For example, using the fourth equation $ D1 + D3 = 26 $ to express $ D1 = 26 - D3 $, then substituting into the first equation $ D1 + D2 = 22 $ to find $ D2 = D3 - 4 $. This reduces the system to solving for $ D3 $ using the second equation $ D2 + D3 = 26 $, leading to $ D3 = 15 $. This method is effective for systems with overlapping equations.",
+    "source_problem_id": "math_95",
+    "success": true,
+    "created_at": "2025-10-13T17:00:47.899697",
+    "embedding": null
+  },
+  {
+    "title": "**Identify Equal Sum Relationships**",
+    "description": "Recognizes that two equations (e.g., $ D1 + D3 $ and $ D2 + D3 $) are equal, leading to $ D1 = D2 $.",
+    "content": "By noticing that both $ D1 + D3 $ and $ D2 + D3 $ equal 26, the problem simplifies to $ D1 = D2 $. This allows solving for $ D1 $ and $ D2 $ directly using the first equation $ D1 + D2 = 22 $, resulting in $ D1 = D2 = 11 $. This reduces the problem to finding $ D3 $ and $ D4 $, which are then solved using the third equation $ D3 + D4 = 30 $.",
+    "source_problem_id": "math_95",
+    "success": true,
+    "created_at": "2025-10-13T17:00:47.899712",
+    "embedding": null
+  },
+  {
+    "title": "**Systematic Elimination and Back-Substitution**",
+    "description": "Solves equations step-by-step by eliminating variables and using known values to compute unknowns.",
+    "content": "The strategy involves using the fourth equation to express one variable in terms of another (e.g., $ D1 = 26 - D3 $), substituting into the first equation to express another variable in terms of $ D3 $, and then solving for $ D3 $ using the second equation. Once $ D3 $ is known, the remaining variables ($ D2 $, $ D4 $) are computed directly from the equations. This method is transferable to systems with multiple variables and overlapping equations.",
+    "source_problem_id": "math_95",
+    "success": true,
+    "created_at": "2025-10-13T17:00:47.899718",
+    "embedding": null
+  },
+  {
+    "title": "**Standard Form and Quadratic Formula Application**",
+    "description": "Solving quadratic equations requires converting the given equation into standard form $ ax^2 + bx + c = 0 $, then applying the quadratic formula $ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} $ to find the roots.",
+    "content": "The key step here was converting the original equation $ x(3x - 7) = -3 $ into $ 3x^2 - 7x + 3 = 0 $, which is the standard form. Then, applying the quadratic formula with $ a = 3 $, $ b = -7 $, and $ c = 3 $, the solution was computed correctly by substituting the values and simplifying the discriminant.",
+    "source_problem_id": "math_96",
+    "success": true,
+    "created_at": "2025-10-13T17:01:03.501556",
+    "embedding": null
+  },
+  {
+    "title": "**Simplifying Roots and Ensuring GCD Condition**",
+    "description": "After applying the quadratic formula, simplifying the resulting expression $ \\frac{7 \\pm \\sqrt{13}}{6} $ is crucial. Additionally, ensuring that the coefficients $ m $, $ n $, and $ p $ have a greatest common divisor (GCD) of 1 is necessary to meet the problem's requirements.",
+    "content": "The solution required simplifying the numerator and denominator of the quadratic formula result. The numerator $ 7 \\pm \\sqrt{13} $ was simplified, and the denominator $ 6 $ was checked for GCD with the numerator components (7 and 13), ensuring they are co-prime.",
+    "source_problem_id": "math_96",
+    "success": true,
+    "created_at": "2025-10-13T17:01:03.501571",
+    "embedding": null
+  },
+  {
+    "title": "**Checking Coefficients for Simplification**",
+    "description": "Ensuring that the final expression is in the form $ \\frac{m \\pm \\sqrt{n}}{p} $ with $ m $, $ n $, and $ p $ having a GCD of 1 is essential for the problem's constraints.",
+    "content": "The final step involved verifying that $ m = 7 $, $ n = 13 $, and $ p = 6 $ satisfy the GCD condition. Since 7 and 13 are co-prime, and 1 and 6 are co-prime, the solution met the problem's requirements. This step ensures the answer is in the required format and adheres to the problem's constraints.",
+    "source_problem_id": "math_96",
+    "success": true,
+    "created_at": "2025-10-13T17:01:03.501576",
+    "embedding": null
+  },
+  {
+    "title": "**Identify Series Type**",
+    "description": "Recognize the series as a geometric series by checking if each term is multiplied by a common ratio.",
+    "content": "For the given series, the first term $ a = \\frac{1}{3} $, common ratio $ r = \\frac{1}{3} $, and number of terms $ n = 6 $. This allows the use of the geometric series formula.",
+    "source_problem_id": "math_97",
+    "success": true,
+    "created_at": "2025-10-13T17:01:19.948969",
+    "embedding": null
+  },
+  {
+    "title": "**Apply Geometric Series Formula**",
+    "description": "Use the formula $ S = a \\cdot \\frac{1 - r^n}{1 - r} $ to compute the sum.",
+    "content": "Plug in the values of $ a $, $ r $, and $ n $ into the formula. Simplify the numerator and denominator step-by-step, ensuring correct arithmetic operations (e.g., $ 1 - \\left(\\frac{1}{3}\\right)^6 $ and $ 1 - \\frac{1}{3} $).",
+    "source_problem_id": "math_97",
+    "success": true,
+    "created_at": "2025-10-13T17:01:19.948983",
+    "embedding": null
+  },
+  {
+    "title": "**Simplify the Resulting Fraction**",
+    "description": "Reduce the fraction to its lowest terms by dividing the numerator and denominator by their greatest common divisor (GCD).",
+    "content": "After calculating $ \\frac{728}{1458} $, simplify by dividing numerator and denominator by 2 to get $ \\frac{364}{729} $, which is in its simplest form.",
+    "source_problem_id": "math_97",
+    "success": true,
+    "created_at": "2025-10-13T17:01:19.948988",
+    "embedding": null
+  }
+]
