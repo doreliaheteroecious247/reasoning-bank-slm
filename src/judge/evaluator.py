@@ -3,12 +3,12 @@ import sys
 import re
 from typing import Dict, Optional
 sys.path.append('src')
-from llm_client import LlamaServerClient
+from llm_client import JudgeClient
 
 class MathJudge:
     """Evaluate if math solution is correct with GSM8K and MATH dataset support"""
     
-    def __init__(self, llm_client: LlamaServerClient):
+    def __init__(self, llm_client: JudgeClient):
         self.llm = llm_client
     
     def is_correct(self, predicted: str, expected: str) -> bool:

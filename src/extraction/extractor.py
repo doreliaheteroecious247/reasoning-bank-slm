@@ -22,7 +22,7 @@ class MemoryExtractor:
             prompt = self._create_failure_prompt(question, solution['reasoning'], 
                                                   solution.get('expected', ''))
         
-        response = self.llm.generate(prompt, temperature=0.1, max_tokens=2048)
+        response = self.llm.generate(prompt, temperature=0.0, max_tokens=2048)
         
         # Parse memory items from response
         memories = self._parse_memory_items(response, problem_id, success)

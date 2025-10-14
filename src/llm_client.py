@@ -52,7 +52,7 @@ ANSWER: <final numeric answer only>"""
         
         prompt = f"## Problem:\n{question}\n\n## Your Solution:"
         
-        response = self.generate(prompt, system_prompt, temperature=0.1)
+        response = self.generate(prompt, system_prompt, temperature=0.0)
         
         # Parse response
         reasoning = ""
@@ -74,3 +74,9 @@ ANSWER: <final numeric answer only>"""
             'answer': answer,
             'full_response': response
         }
+
+class JudgeClient(LlamaServerClient):
+    """Separate client for judge model (typically larger/faster model on different port)"""
+    
+    def __init__(self, base_url="http://localhost:8081/v1", model_name="qwen3-4b"):
+        super().__init__(base_url=base_url, model_name=model_name)
