@@ -6,7 +6,7 @@ from typing import Optional, Dict
 class LlamaServerClient:
     """Client for llama-server using OpenAI-compatible API"""
     
-    def __init__(self, base_url="http://localhost:8080/v1", model_name="qwen3-4b"):
+    def __init__(self, base_url="http://localhost:8080/v1", model_name="qwen3-1.7b"):
         self.client = OpenAI(
             base_url=base_url,
             api_key="not-needed"  # llama-server doesn't need key
